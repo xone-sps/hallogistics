@@ -4,11 +4,16 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import VModal from 'vue-js-modal'
+import VueLoading from 'vuejs-loading-plugin'
 
 Vue.config.productionTip = false
-Vue.use(VModal)
+Vue.use(VModal,{
+	   height: 'auto',
+   dynamic: true,
+});
+Vue.use(VueLoading, {
+  dark: true,text: 'Loading ...',classes: ['loading'] })
 
-/* eslint-disable no-new */
 new Vue({
 
   el: '#app',
@@ -16,3 +21,4 @@ new Vue({
   components: { App },
   template: '<App/>'
 })
+

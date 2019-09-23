@@ -21,7 +21,7 @@
 
    <div class="columns is-multiline">
     <div class="column is-3" v-for="item in items" >
-      <div class="price-table" v-bind:class="{active: isActive}">
+      <div class="price-table">
         <div class="title main-color branch">{{item.zone}}</div>
         <div class="per-mile">ລາຍລະອຽດ</div>
         <ul class="elements">

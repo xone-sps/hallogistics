@@ -7,9 +7,12 @@
           <div class="column is-8 is-offset-2">
             <div class="main_title"><h2>ກວດສອບພັດສະດຸ</h2></div>
             <div class="saidbar-search">
-              <form action="">
+              <form v-on:submit.prevent="toClick()">
                 <input type="text" v-model="parcelId" class="input is-rounded" id="search-bar" placeholder="ປ້ອນເລກໃບບິນ">
                 <a v-on:click="toClick()"><i class="fa fa-search search-icon"></i></a>
+              <div v-if="errors.length">
+                  <p class="required">{{errors}}</p>
+              </div>
               </form>
             </div>
 <!--             <div class="field">
@@ -21,7 +24,8 @@
                 <a v-on:click="toClick()" class="nile-bottom md">ກວດສອບພັດສະດຸ</a>
               </div>
             </div> -->
-            <table class="table is-fullwidth" v-if="status != false">
+<!--             <div v-if="!loading">
+                          <table class="table is-fullwidth" v-if="status != false">
               <thead>
                 <tr>
                   <th>ວັນທີ ແລະເວລາ</th>
@@ -37,8 +41,45 @@
                 </tr>
               </tbody>
             </table>
+            </div> -->
           </div>
         </div>
+<!-- Modal tracking -->
+        <modal name="calculate"
+         :width="500"
+         :height="'auto'"
+         :clickToClose="true"
+         :scrollable="true"
+     >
+      <div class="modals-calculate">
+        <div class="has-text-centered">
+          <img style="max-height: 56px;" src="@/assets/logo.png">
+                  <h2>ກວດສອບພັດສະດຸ</h2>
+        </div>
+           <table class="table track is-fullwidth" v-if="status != false">
+              <thead>
+                <tr>
+                  <th>ວັນທີ ແລະເວລາ</th>
+                  <th>ສະຖານະ</th>
+                  <th>ສາງ</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr v-for="track in data">
+                  <th class="tracking-date">{{ track.date }}</th>
+                  <th>{{ track.details }}</th>
+                  <th>{{ track.place }}</th>
+                </tr>
+              </tbody>
+            </table>
+        <div class="has-text-centered modal-footer">
+          <a @click="hideModal()" class="button is-danger is-rounded">ປິດໜ້ານີ້</a>
+        </div>
+
+      </div>
+    </modal>
+
+
     </section>
 
   </div>
@@ -80,25 +121,43 @@ export default {
     return {
       data:'',
       parcelId:'',
-      status: false
+      status: false,
+       errors:[]
     }
   },
   methods:{
     getData(){
-      axios.get("https://cors-anywhere.herokuapp.com/http://trackhal.com/cgi-bin/GInfo.dll?EmsApiTrack&ntype=10000&cno="+this.parcelId).then(
+        this.$loading (true)
+      axios.get("https://cors-anywhere.herokuapp.com/http://trackhal.com/cgi-bin/GInfo.dll?EmsApiTrack&ntype=10000&cno="+this.parcelId)
+      .then(
         res => {      
-
+          this.$loading(false)
           this.data = res.data.trackingEventList;
-      // console.log(res.data.trackingEventList);
-    });
-    },
+       // console.log(res.data.trackingEventList);
+    }).catch(error => {
+                    this.$loading(true)
+})
+},
     toClick(){
-      this.getData();
-      this.status = true
+    this.errors = [];
+    if(!this.parcelId){
+  this.errors.push("ປ້ອນເລກໃບບິນ !");
+    } else{
+        this.getData();
+      this.status = true,
+          this.$modal.show('calculate');
     }
+    },
+    openModal () {
+      this.$modal.show('calculate');
+    },
+hideModal () {
+      this.$modal.hide('calculate');
+      this.$loading(false)
+    }
+    
   },
   created(){
-
   },
 
   components: {
@@ -113,3 +172,49 @@ export default {
 }
 </script>
 
+<style type="text/css" media="screen">
+.calculate{
+  overflow-y:auto;
+}
+modal{
+    overflow-y:auto;
+}
+.modals-calculate{
+  margin:20px 10px 20px 10px;
+}
+table tbody tr th.tracking-date{
+  font-size:12px;
+}
+.v--modal{
+  overflow-y:auto;
+  overflow:auto;
+}
+.v--modal-overlay .v--modal-box{
+  overflow:auto !important;
+  height:auto;
+  width:100%;
+  top:100;
+}
+.table th {
+    color: #363636;
+    font-weight: 500;
+}
+.table thead td, .table thead th{
+    font-weight:600 !important;
+}
+
+.loading{
+  z-index:1000 !important;
+}
+.loading-text{
+    font-weight:600;
+    color: #e53935 !important;
+    font-size: 16px !important;
+}
+.loading-circle{
+  border-left-color:#e53935 !important;
+}
+.required{
+  color:#e53935 ;
+}
+</style>

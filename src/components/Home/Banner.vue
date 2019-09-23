@@ -7,9 +7,8 @@
 </template>
 
 <script>
-import image1 from '@/assets/images/slider/slider1.jpg';
+import image1 from '@/assets/images/slider/slider2.jpg';
 	
-
 	export default{
 
         data(){
