@@ -20,7 +20,7 @@
    <!-- // End Title -->
 
    <div class="columns is-multiline">
-    <div class="column is-3" v-for="item in items" >
+<!--     <div class="column is-3" v-for="item in items" >
       <div class="price-table">
         <div class="title main-color branch">{{item.zone}}</div>
         <div class="per-mile">ລາຍລະອຽດ</div>
@@ -33,69 +33,55 @@
             <a href="#" class="nile-bottom sm-block">ເບິ່ງລາຍລະອຽດ</a>
           </div>
         </div>
-      </div>
+      </div> -->
         <!-- item -->
-        <div class="column is-3 col-md-6">
+              <div class="column">
+        <div class="price-table">
+          <div class="title main-color branch">ພາກເໜືອ</div>
+          <div class="per-mile">ລາຍລະອຽດ</div>
+        <div class="padding-25px">
+          <router-link to="/branch/north" class="nile-bottom sm-block">ເບິ່ງລາຍລະອຽດ</router-link>
+        </div>
+      </div>
+    </div>
+        <div class="column is-3">
           <div class="price-table active">
             <div class="title main-color branch">ນະຄອນຫຼວງວຽວຈັນ</div>
             <div class="per-mile">ລາຍລະອຽດ</div>
-            <ul class="elements">
-             <li>ຍາວ + ກວ້າງ + ສູງ < 70 cm</li>
-             <li>ນ້ຳໜັກ < 5 kg </li>
-             <li>Warehousing</li>
-             <li>ລາຄາກ່ອງ 6,000 ₭</li>
-             <li>24/7 support</li>
-           </ul>
            <div class="padding-25px">
-            <a href="#" class="nile-bottom sm-block">ເບິ່ງລາຍລະອຽດ</a>
+            <router-link to="/branch/vientiane" class="nile-bottom sm-block">ເບິ່ງລາຍລະອຽດ</router-link>
           </div>
         </div>
       </div>
       <!-- // end item -->
       <!-- item -->
-      <div class="column is-3 col-md-6">
+      <div class="column is-3">
         <div class="price-table">
           <div class="title main-color branch">ພາກກາງ</div>
           <div class="per-mile">ລາຍລະອຽດ</div>
-          <ul class="elements">
-           <li>ຍາວ + ກວ້າງ + ສູງ < 45 cm</li>
-           <li>ນ້ຳໜັກ < 3 kg </li>
-           <li>Warehousing</li>
-           <li>ລາຄາກ່ອງ   <del>
-            <span class="amount">5,000 ₭</span>
-          </del> Free</li>
-          <li>24/7 support</li>
-        </ul>
         <div class="padding-25px">
-          <a href="#" class="nile-bottom sm-block">ເບິ່ງລາຍລະອຽດ</a>
+          <router-link to="/branch/central" class="nile-bottom sm-block">ເບິ່ງລາຍລະອຽດ</router-link>
         </div>
       </div>
     </div>
     <!-- // end item -->
 
     <!-- item -->
-    <div class="column is-3 col-md-6">
+    <div class="column is-3">
       <div class="price-table">
         <div class="title main-color branch">ພາກໃຕ້</div>
         <div class="per-mile">ລາຍລະອຽດ</div>
-        <ul class="elements">
-          <li>ຍາວ + ກວ້າງ + ສູງ < 90 cm</li>
-          <li>ນ້ຳໜັກ < 10 kg </li>
-          <li>Warehousing</li>
-          <li>ລາຄາກ່ອງ 10,000 ₭</li>
-          <li>24/7 support</li>
-        </ul>
         <div class="padding-25px">
-          <a href="#" class="nile-bottom sm-block">ເບິ່ງລາຍລະອຽດ</a>
+          <router-link to="/branch/south" class="nile-bottom sm-block">ເບິ່ງລາຍລະອຽດ</router-link>
         </div>
       </div>
     </div>
     <!-- // end item -->
   </div>
-
+<!-- 
   <div class="has-text-centered">
-    <a href="#" class="nile-bottom md">Show all <i class="fa fa-arrow-right"></i> </a>
-  </div>
+    <a href="branch" class="nile-bottom md">ເບິ່ງທັງໝົດ<i class="fa fa-arrow-right"></i> </a>
+  </div> -->
 </div>
 </div>
 </template>

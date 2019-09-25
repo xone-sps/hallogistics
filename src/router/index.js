@@ -11,6 +11,7 @@ import Central from '@/components/Page/Branch/Central'
 import South from '@/components/Page/Branch/South'
 import Blog from '@/components/Page/Blog'
 import Price from '@/components/Page/Price'
+import Service from '@/components/Page/Service'
 
 Vue.use(Router)
 
@@ -61,12 +62,18 @@ export default new Router({
       {
       path: '/blog',
       name: 'blog',
+      // redirect: { name: 'home' },
       component: Blog
     },
           {
       path: '/price',
       name: 'price',
       component: Price
+    },
+              {
+      path: '/service',
+      name: 'service',
+      component: Service
     }
   ]
 })

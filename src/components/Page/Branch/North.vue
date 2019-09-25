@@ -11,7 +11,6 @@
          </div>
      </div>
      <!-- // End Title -->
-
      <div class="columns is-multiline">
         <!-- item -->
         <div class="column is-4" v-for="(item, indx) in items" :key="indx">
@@ -40,8 +39,6 @@
 </div>
 </div>
 </template>
-
-
 <script>
 import borkoe from '@/assets/images/branchs/north/br_borkeo.jpeg';
 import huaphan from '@/assets/images/branchs/north/br_huaphanh.jpeg';
@@ -51,14 +48,12 @@ import oudomxay from '@/assets/images/branchs/north/br_oudomxay.jpeg';
 import xayabuli from '@/assets/images/branchs/north/br_xayabuli.jpeg';
 import xiengkhuang from '@/assets/images/branchs/north/br_xiengkhuang.jpeg';
 
-
-
 	export default{
 // name:'Vientiane'
 			data() {
 return {
 title:'ສາຂາ ພາກເໜືອ',
-description:'In quis luctus dolor. Sed ac libero arcu. Phasellus vulputate ultrices augue, eget feugiat lectus efficitur in. Nulla non pharetra justo. Nunc viverra consectetur bibendum.',
+description:'ປັດຈຸບັນນີ້ໃນພາກເໜືອ ພວກເຮົາມີຈຸດບໍລິການ 7 ສາຂາ ທ່ານສາມາດຝາກເຄື່ອງໄດ້ທຸກສາຂາທີ່ຢູ່ໃກ້ບ້ານທ່ານ! ແລະ ຮັບເຖິງທີ່ສົ່ງເຖິງບ່ອນສະເພາະເຂດບໍລິການທີ່ກຳນົດໃນລາຍລະອຽດຂອງແຕ່ລະສາຂາ, ສາຂາຜົງສາລີເປີດບໍລິການໃນໄວໆນີ້',
 
 					items: [
               {

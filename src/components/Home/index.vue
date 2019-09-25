@@ -55,8 +55,14 @@
         <div class="has-text-centered">
           <img style="max-height: 56px;" src="@/assets/logo.png">
                   <h2>ກວດສອບພັດສະດຸ</h2>
+                  <div>
+                    <h2>
+                    {{des.From}} &#8646; {{des.Destination}}
+                  </h2>
+                  </div>
         </div>
            <table class="table track is-fullwidth" v-if="status != false">
+            
               <thead>
                 <tr>
                   <th>ວັນທີ ແລະເວລາ</th>
@@ -75,13 +81,9 @@
         <div class="has-text-centered modal-footer">
           <a @click="hideModal()" class="button is-danger is-rounded">ປິດໜ້ານີ້</a>
         </div>
-
       </div>
     </modal>
-
-
     </section>
-
   </div>
 
   <!--   <banner/> -->
@@ -122,7 +124,8 @@ export default {
       data:'',
       parcelId:'',
       status: false,
-       errors:[]
+       errors:[],
+       des:[]
     }
   },
   methods:{
@@ -131,9 +134,10 @@ export default {
       axios.get("https://cors-anywhere.herokuapp.com/http://trackhal.com/cgi-bin/GInfo.dll?EmsApiTrack&ntype=10000&cno="+this.parcelId)
       .then(
         res => {      
-          this.$loading(false)
           this.data = res.data.trackingEventList;
-       // console.log(res.data.trackingEventList);
+          this.des = res.data.Response_Info;
+         this.$loading(false)
+       // console.log(res.data);
     }).catch(error => {
                     this.$loading(true)
 })
@@ -172,7 +176,7 @@ hideModal () {
 }
 </script>
 
-<style type="text/css" media="screen">
+<style scoped>
 .calculate{
   overflow-y:auto;
 }

@@ -54,7 +54,7 @@ import khammuan from '@/assets/images/branchs/central/br_khm.jpeg';
 			data() {
 return {
 title:'ສາຂາ ພາກກາງ',
-description:'In quis luctus dolor. Sed ac libero arcu. Phasellus vulputate ultrices augue, eget feugiat lectus efficitur in. Nulla non pharetra justo. Nunc viverra consectetur bibendum.',
+description:'ປັດຈຸບັນນີ້ໃນພາກກາງ ພວກເຮົາມີຈຸດບໍລິການ 5 ສາຂາ ທ່ານສາມາດຝາກເຄື່ອງໄດ້ທຸກສາຂາທີ່ຢູ່ໃກ້ບ້ານທ່ານ! ແລະ ຮັບເຖິງທີ່ສົ່ງເຖິງບ່ອນສະເພາະເຂດບໍລິການທີ່ກຳນົດໃນລາຍລະອຽດຂອງແຕ່ລະສາຂາ',
 
 					items: [
               {

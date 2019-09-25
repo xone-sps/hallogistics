@@ -22,10 +22,10 @@
 
             <!-- item -->
             <div class="column is-3 col-md-6">
-                <div class="price-table">
+                <div class="price-table active">
                     <div class="title main-color">ເລີ່ມຕົ້ນ/Mini</div>
                     <div class="price">12,000<span>₭</span></div>
-                    <div class="per-mile">ລາຍລະອຽດ</div>
+<!--                     <div class="per-mile">ລາຍລະອຽດ</div>
                     <ul class="elements">
                         <li>ຍາວ + ກວ້າງ + ສູງ < 45 cm</li>
                         <li>ນ້ຳໜັກ < 1 kg </li>
@@ -36,9 +36,9 @@
                         </del> Free
                     </li>
                     <li>24/7 support</li>
-                </ul>
+                </ul> -->
                 <div class="padding-25px">
-                    <a href="#" class="nile-bottom sm-block">ORDER NOW</a>
+                    <a href="#" class="nile-bottom sm-block">ລາຍລະອຽດ</a>
                 </div>
             </div>
         </div>
@@ -49,18 +49,8 @@
             <div class="price-table">
                 <div class="title main-color">S</div>
                 <div class="price">15,000<span>₭</span></div>
-                <div class="per-mile">ລາຍລະອຽດ</div>
-                <ul class="elements">
-                 <li>ຍາວ + ກວ້າງ + ສູງ < 45 cm</li>
-                 <li>ນ້ຳໜັກ < 3 kg </li>
-                 <li>Warehousing</li>
-                 <li>ລາຄາກ່ອງ   <del>
-                    <span class="amount">5,000 ₭</span>
-                </del> Free</li>
-                <li>24/7 support</li>
-            </ul>
             <div class="padding-25px">
-                <a href="#" class="nile-bottom sm-block">ORDER NOW</a>
+                <a href="#" class="nile-bottom sm-block">ລາຍລະອຽດ</a>
             </div>
         </div>
     </div>
@@ -68,19 +58,11 @@
 
     <!-- item -->
     <div class="column is-3 col-md-6">
-        <div class="price-table active">
+        <div class="price-table">
             <div class="title main-color">S+</div>
             <div class="price">20,000<span>₭</span></div>
-            <div class="per-mile">ລາຍລະອຽດ</div>
-            <ul class="elements">
-             <li>ຍາວ + ກວ້າງ + ສູງ < 70 cm</li>
-             <li>ນ້ຳໜັກ < 5 kg </li>
-             <li>Warehousing</li>
-             <li>ລາຄາກ່ອງ 6,000 ₭</li>
-             <li>24/7 support</li>
-         </ul>
          <div class="padding-25px">
-            <a href="#" class="nile-bottom sm-block">ORDER NOW</a>
+            <a href="#" class="nile-bottom sm-block">ລາຍລະອຽດ</a>
         </div>
     </div>
 </div>
@@ -91,16 +73,8 @@
     <div class="price-table">
         <div class="title main-color">M</div>
         <div class="price">30,000<span>₭</span></div>
-        <div class="per-mile">ລາຍລະອຽດ</div>
-        <ul class="elements">
-          <li>ຍາວ + ກວ້າງ + ສູງ < 90 cm</li>
-          <li>ນ້ຳໜັກ < 10 kg </li>
-          <li>Warehousing</li>
-          <li>ລາຄາກ່ອງ 10,000 ₭</li>
-          <li>24/7 support</li>
-      </ul>
       <div class="padding-25px">
-        <a href="#" class="nile-bottom sm-block">ORDER NOW</a>
+        <a href="#" class="nile-bottom sm-block">ລາຍລະອຽດ</a>
     </div>
 </div>
 </div>
@@ -108,7 +82,7 @@
 </div>
 
 <div class="has-text-centered">
-    <a href="#" class="nile-bottom md">Show all <i class="fa fa-arrow-right"></i> </a>
+    <router-link to="/price" class="nile-bottom md">ເບິ່ງທັງໝົດ<i class="fa fa-arrow-right"></i> </router-link>
 </div>
 
 

@@ -11,26 +11,20 @@
          </div>
      </div>
      <div class="columns">
-     	<div class="column is-6">
-     		<div>Phone</div>
-     		<div>Email:</div>
-     		<div>Adress</div>
-     	</div>
-     	  	<div class="column is-6">
-     		<ul>
-     			<li>Contact</li>
-     		</ul>
+     	<div class="column">
+     		<div><strong>Phone:</strong> 20 55538210 / 2055538211</div>
+     		<div><strong>Email:</strong></div>
+     		<div><strong>Adress:</strong>ບ້ານຮ່ອງຄ້າ, ເມືອງຈັນທະບູລີ, ນະຄອນຫຼວງວຽງຈັນ</div>
      	</div>
      </div>
-		<h1>Contact us</h1>
+		<h1>Google map</h1>
 		                <div class="map">
-                    <iframe
-                        src="https://maps.google.com/maps?width=100%&amp;height=900&amp;hl=en&amp;q=Laos%2C%20Dongdork+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=B&amp;output=embed"
-                        frameborder="0"
-                        scrolling="no"
-                        marginheight="0"
-                        marginwidth="0"
-                    ></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3794.9597462972524!2d102.60344451436116!3d17.98060969015831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x312469f1c0fdb747%3A0xb2f554cf5b06d32c!2sHAL%20logistic!5e0!3m2!1sen!2sla!4v1569390800372!5m2!1sen!2sla" width="600" height="450" style="border:0;" allowfullscreen=""
+                                frameborder="0"
+                                scrolling="no"
+                                marginheight="0"
+                                marginwidth="0"
+                            ></iframe>
                 </div>
 			</div>
 		</div>
@@ -41,8 +35,8 @@
 	export default{
 		data (){
 			return {
-            title:'ກຽ່ວກັບພວກເຮົາ',
-            description: 'ກຽ່ວກັບພວກເຮົາ'
+            title:'ຕິດຕໍ່ພວກເຮົາ',
+            description: 'ຕິດຕໍ່ພວກເຮົາ'
 			}
 		}
 	}
