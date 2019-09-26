@@ -32,7 +32,7 @@
 				Sidebar
 			},
 			computed: {
-				...mapState(['isMobile']),
+			  ...mapState(['isMobile', 'isSidebar']),
 			},
 		}
 	</script>
