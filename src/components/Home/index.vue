@@ -3,7 +3,9 @@
     <!-- Banner -->
     <div class="banner">
       <section class="section">
-        <div class="columns">
+<div class="container">
+  <div class="margin-top-h">
+            <div class="columns">
           <div class="column is-8 is-offset-2">
             <div class="main_title"><h2>ກວດສອບພັດສະດຸ</h2></div>
             <div class="saidbar-search">
@@ -83,6 +85,8 @@
         </div>
       </div>
     </modal>
+  </div>
+</div>
     </section>
   </div>
 
@@ -139,7 +143,7 @@ export default {
          this.$loading(false)
        // console.log(res.data);
     }).catch(error => {
-                    this.$loading(true)
+    this.$loading(true)
 })
 },
     toClick(){

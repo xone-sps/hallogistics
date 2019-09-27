@@ -6,7 +6,8 @@
       <div class="columns">
         <div class="column has-text-centered">
          <div class="icon">
-          <img src="@/assets/images/icons/service-dark-4.png" alt=""></div>
+          <img src="@/assets/images/icons/service-dark-4.png" alt="">
+        </div>
 
         </div>
       </div>

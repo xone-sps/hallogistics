@@ -1,45 +1,34 @@
 <template>
 	<div>
-		<div class="nile-about-section">
-<section class="section">
-	        <div class="container">
-            <div class="columns">
-                <div class="column is-6 sm-mb-45px">
-                    <div class="section-title-right text-main-color clearfix">
-                        <div class="icon"><img src="@/assets/images/icons/title-icon-1.png" alt=""></div>
-                        <h2 class="title-text">Who We Are ?</h2>
-                    </div>
-                    <div class="about-text margin-tb-25px">
-                        <h4>25 years of experience in Logistics services</h4>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        <br> consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ...
-                    </div>
-                    <a href="#" class="nile-bottom sm">Read More</a>
-
-                </div>
-                <div class="column is-6">
-                    <img src="@/assets/images/about-1.jpg" alt="">
+		<div class="nile-about-section" style="margin-top:30px;">
+            <section class="section">
+             <div class="container">
+               <div class="margin-top-h">
+                <div class="columns">
+                    <div class="column is-6 sm-mb-45px">
+                        <div class="section-title margin-bottom-40px">
+                           <div class="columns justify-content-center has-text-centered">
+                            <div class="column is-8">
+                             <div class="h2">ທ່ານ ບຸນພັນ ມາຢົງເຊິ່ນ</div>
+                             <div class="des">{{description}}</div>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="about-text margin-tb-25px">
+                    <h4>ປະທານ ບໍລິສັດ ຮຸ່ງອາລຸນການຄ້າ ຂາອອກ-ຂາເຂົ້າ ແລະ ຂົນສົ່ງທາງບົກ ຈໍາກັດ ຜູ້ດຽວ</h4>
+                    <strong>ຄໍານິຍາມ:</strong> ແສງສະຫວ່າງແຫ່ງຄວາມສໍາເລັດ
+                    ບໍລິສັດໄດ້ສ້າງຕັ້ງຂື້ນວັນທີ່ 20 ເດື່ອນ 08 ປີ 2008 ໂດຍຄອບຄົວຕະກຸນ ມາຢົງເຊິ່ນ ດ້ວຍຄວາມມຸ້ງຫມັ້ນຢາກພັດທະນາຈາກທີ່ເປັນພຽງພໍ່ຄ້າແມ່ຄ້າທົ່ວໄປ ເຫດຈາກໃນຊູມປີ 1997 ລາວເຮົາເລີ່ມເປີດປະເທດສູ່ການຄ້າກັບຕ່າງປະເທດຈຶ່ງເລີ່ມມີພໍ່ຄ້າຊາວຂາຍຫຼັ່ງໄຫຼກັນເຂົ້າມາທໍາການຄ້າໃນລາວເຮົາ ແຕ່ໃນໄລຍະນັ້ນການນໍາເຂົ້າສົ່ງອອກສິນຄ້າຍັງບໍ່ເຂົ້າສູ່ລະບົບ ແລະ ລະບຽບການຄຸ້ມຄອງກໍ່ຍັງບໍ່ເຂັ້ມແຂງ ສະນັ້ນຊິບປີ໋ງບໍ່ມີຕົວຕົນຈື່ງຖືກໍາເນີດຂື້ນ ພາຍຫຼັງລັດທະບານກໍ່ ເລີ່ມມີການປັບປຸງນິຕິກໍາຕ່າງໆມາຮອງຮັບ ແລະ ບັງຄັບໃຊ້ໃນຫຼາຍໆໂຂງເຂດ ສະນັ້ນເພື່ອໃຫ້ສອດຄ່ອງຕາມແນວທາງພັກລັດ ແລະ ເພື່ອໃຫ້ການບໍລິການລູກຄ້າກໍ່ຄືນັກທຸລະກິດ ໃນການນໍາເຂົ້າ-ສົ່ງອອກ ສິນຄ້າໃຫ້ຄ້ອງແຄ້ວວອງໄວຕາມການເຕັບໂຕຂອງເສດຖະກິດ.
+                    ຈື່ງມີແນວຄິດ ແລະ ຄວາມມຸ້ງຫມັ້ນ ສ້າງຕັ້ງບໍລິສັດ ຮຸ່ງອາລຸນການຄ້າ ຂາອອກ-ຂາເຂົ້າ ແລະ ຂົນສົ່ງທາງບົກ ຈໍາກັດຜູ້ດຽວ. ເຊິ່ງເປັນປະທານໂດຍ: ທ່ານ ບຸນພັນ ມາຢົງເຊິ່ນ ຈົນເຖິງນະປະຈຸບັນ ດ້ວຍທືນຈົດທະບຽນ: 3,460,580,000 ກີບ
+                    ໃນເບື້ອງຕົ້ນມີພຽງພະນັກງານ 6 ທ່ານ ເຊິ່ງນັບລວມທັ້ງ ທ່ານ ບຸນພັນ ແລະ ນາງ ອາລັງ ແລະ ມີພຽງ 1 ຈຸດບໍລິການຄື ດ່ານນາເຕີຍ (ພາຍຫຼັງໄດ້ຍ້າຍຂື້ນໄປຕັ້ງຢູ່ທີ່ປະຈຸບັນ ເອີ້ນດ່ານສາກົນບໍ່ເຕັນ)
                 </div>
             </div>
+            <div class="column is-6">
+                <img src="@/assets/images/about-1.jpg" alt="">
+            </div>
         </div>
-</section>
     </div>
-	</div>
+</div>
+</section>
+</div>
+</div>
 </template>

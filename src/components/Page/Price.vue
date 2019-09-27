@@ -2,7 +2,8 @@
 <div>
 	<section class="section">
 		<div class="container">
-			    <div class="section-title margin-bottom-40px">
+			    <div class="margin-top-h">
+			    	<div class="section-title margin-bottom-40px">
                 <div class="columns">
                     <div class="column has-text-centered">
                      <div class="icon text-main-color"><i class="fa fa-money"></i></div>
@@ -146,6 +147,7 @@
 				</div>
 			</div>
 
+			    </div>
 		</div>
 	</section>
 </div>

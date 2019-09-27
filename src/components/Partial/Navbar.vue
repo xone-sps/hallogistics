@@ -6,11 +6,17 @@
           <router-link class="navbar-item" to="/">
            <img style="max-height: 36px;" src="@/assets/logo.png">
          </router-link>
-         <a role="button" class="navbar-burger burger" v-on:click="show =!show">
+         <a role="button" class="navbar-burger burger" v-if="!showNav" @click="showNavbar">
            <!-- v-if="isMobile" @click="showMobileNav()" -->
            <span aria-hidden="true"></span>
            <span aria-hidden="true"></span>
            <span aria-hidden="true"></span>
+         </a>
+         <a role="button" class="navbar-burger burger" v-else @click="hideNavbar">
+           <div class="icon">
+             <i class="fas fa-times"></i>
+           </div>
+           <!-- <i class="fas fa-bars"></i> -->
          </a>
        </div>
        <div id="navbarBasicExample" class="navbar-menu">
@@ -60,11 +66,11 @@
          <router-link class="navbar-item" :to="{name:'price'}" active-class="active" exact>
           ລາຄາ
         </router-link>
-        <router-link class="navbar-item" :to="{name:'blog'}" active-class="active" exact>
+        <router-link class="navbar-item" :to="{name:'home'}" active-class="active" exact>
           ຂ່າວສານ
         </router-link>
       </div>
-
+<!-- 
       <div class="navbar-end">
         <div class="navbar-item">
           <div class="buttons">
@@ -72,16 +78,16 @@
               <strong>Sign up</strong>
             </a>
             <a class="button is-light">
-              Log in
+              Sign in
             </a>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </nav>
 <!-- Sidebar -->
-<div v-bind:class="showMobile">
+<div v-if="showNav">
   <div id="ms-sidebar" class="sidebar is-hidden-desktop-only is-hidden-desktop"
   >
   <section class="my-sidebar-drawer">
@@ -164,7 +170,8 @@
       return {
 
         isActive: '',
-        show: true
+        showApp: false,
+        showNav:false,
       }
     },
   // watch: {
@@ -175,31 +182,24 @@
   computed: {
     // ...mapState(['isMobile', 'isSidebar']),
 
-    showMobile(){
-      return {
-        show:this.show,
-      }
-
-    },
-
   },
-  // methods: {
-  //   ...mapMutations(['setSidebar']),
-  //   showMobileNav() {
-
-  //     this.isActive = this.isActive === 'is-active' ? '' : 'is-active';
-  //     this.setSidebar({isSidebar: this.isActive})
-  //   },
-  // }
+  methods: {
+    showNavbar(){
+      this.showNav = !this.showNav;
+    },
+    hideNavbar(){
+     this.showNav = !this.showNav;
+     this.showApp = !this.showApp;
+   },
+}
 
 }
 
 </script>
 
 <style scoped>
-
-.show{
-  display: none;
+.showNav{
+  transition: all 0.8s ease-in-out;
   -webkit-transform: translateX(0) !important;
   transform: translateX(0) !important;
   -webkit-overflow-scrolling: touch;
@@ -209,8 +209,6 @@
   transition: transform 233ms cubic-bezier(0, 0, .21, 1);
   transition: transform 233ms cubic-bezier(0, 0, .21, 1), -webkit-transform 233ms cubic-bezier(0, 0, .21, 1);
   display: block;
-  background-color: #000;
-  opacity: 0.8;
 }
 .sidebar{
   display: none;
@@ -400,7 +398,7 @@ li.is-active {
   padding: 0 6px 0 0;
   font-size: 15px;
   line-height: 1.2;
-  border-right: solid 1px #fff;
+  /*border-right: solid 1px #fff;*/
   color: #fff;
 }
 

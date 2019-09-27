@@ -1,9 +1,7 @@
 <template>
 	<div>
-		<header class="background-white">
-            <div class="header-output">
-                <div class="header-output">
-                    <div class="header-in">
+		<header class="background-white top">
+
                         <!-- Up Head -->
                         <div class="up-head d-none d-lg-block background-grey-4">
                             <div class="container">
@@ -15,9 +13,6 @@
                             </div>
                         </div>
                         <!-- // Up Head -->
-                    </div>
-                </div>
-            </div>
         </header>
     </div>
 </template>
