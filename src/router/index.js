@@ -23,19 +23,19 @@ export default new Router({
     path: '/',
     name: 'home',
     component: Index,
-    meta:{title:'Home'}
+    meta:{title:'Home|Hal Logistics'}
   },
   {
    path: '/about',
    name: 'about',
    component: About,
-   meta: {title: 'About'}
+   meta: {title: 'About|Hal Logistics'}
  },
  {
   path: '/contact',
   name: 'contact',
   component: Contact,
-  meta: {title: 'Contact'}
+  meta: {title: 'Contact|Hal Logistics'}
 },
     // branch
     {
@@ -47,25 +47,25 @@ export default new Router({
       path: '/branch/vientiane',
       name: 'vientiane',
       component: Vientiane,
-      meta: {title: 'ສາຂານະຄອນຫຼວງ'}
+      meta: {title: 'ສາຂານະຄອນຫຼວງ|Hal Logistics'}
     },
     {
       path: '/branch/north',
       name: 'north',
       component: North,
-      meta: {title: 'ສາຂາພາກເໜືອ'}
+      meta: {title: 'ສາຂາພາກເໜືອ|Hal Logistics'}
     },
     {
       path: '/branch/central',
       name: 'central',
       component: Central,
-      meta: {title: 'ສາຂາພາກກາງ'}
+      meta: {title: 'ສາຂາພາກກາງ|Hal Logistics'}
     },
     {
       path: '/branch/south',
       name: 'south',
       component: South,
-      meta: {title: 'ສາຂາພາກໃຕ້'}
+      meta: {title: 'ສາຂາພາກໃຕ້|Hal Logistics'}
     },
     {
       path: '/blog',
@@ -77,13 +77,13 @@ export default new Router({
       path: '/price',
       name: 'price',
       component: Price,
-      meta: {title: 'ຄ່າບໍລິການ'}
+      meta: {title: 'ຄ່າບໍລິການ|Hal Logistics'}
     },
     {
       path: '/service',
       name: 'service',
       component: Service,
-      meta: {title: 'ການບໍລິການ'}
+      meta: {title: 'ການບໍລິການ|Hal Logistics'}
     },
     {
       path: '*',

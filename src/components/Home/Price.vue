@@ -12,7 +12,7 @@
                  <div class="columns justify-content-center has-text-centered">
                     <div class="column is-8">
                        <div class="h2">ລາຄາຂົນສົ່ງຕ່າງແຂວງ</div>
-                       <div class="des">In quis luctus dolor. Sed ac libero arcu. Phasellus vulputate ultrices augue, eget feugiat lectus efficitur in. Nulla non pharetra justo. Nunc viverra consectetur bibendum. </div>
+                       <div class="des">ການຄິດໄລ່ຄ່າບໍລິແມ່ນມີສອງແບບຄື: ຕ່າງແຂວງ ແລະຂ້າມພາກ ທັງໝົດແມ່ນອີງຕາມຂະໜາດ ແລະນ້ຳໜັກຂອງພັດສະດຸ</div>
                    </div>
                </div>
            </div>

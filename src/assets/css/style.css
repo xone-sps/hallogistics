@@ -1,25 +1,33 @@
-@import url(http://fonts.googleapis.com/earlyaccess/notosanslao.css);
-*{
-  font-family: 'Noto Sans Lao', Saysettha OT, Phetsarath OT, sans-serif;
-}
-body, button, input, select, textarea {
-  font-family: 'Noto Sans Lao', Saysettha OT, Phetsarath OT, sans-serif;
-}
-/*h1, h2 {
-  font-weight: normal;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
+
+@font-face {
+    font-family: 'boonhome-regular';
+    src: url(../fonts/BoonHome-400.ttf) format("truetype");
 }
 
-*/
+@font-face {
+    font-family: 'boonhome-bold';
+    src: url(../fonts/BoonHome-700.ttf) format("truetype");
+}
+
+/*
+@import url(http://fonts.googleapis.com/earlyaccess/notosanslao.css);*/
+*{
+   font-family:'boonhome-regular', 'Google Sans', arial, serif, sans-serif !important;
+}
+body, button, input, select, textarea {
+
+  font-family:'boonhome-regular', 'Google Sans', arial, serif, sans-serif !important;
+}
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Roboto', 'boonhome-bold' !important;
+}
+
 
 body{
 	top: 0;
 	margin:0;
 	padding: 0;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 a.navbar-item, .navbar-link {
@@ -199,7 +207,7 @@ a:hover{
 }
 .service .dis {
     color: #fff;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .service-icon-box a.title.h2 {
@@ -213,7 +221,7 @@ a:hover{
     color: #777;
 }
 .service-icon-box .des {
-    font-size: 13px;
+    font-size: 16px;
     color: #777;
 }
 .service-icon-box {

@@ -93,7 +93,7 @@ export default {
 
     return {
       title:'ເຂດບໍລິການ',
-      desc: 'In quis luctus dolor. Sed ac libero arcu. Phasellus vulputate ultrices augue, eget feugiat lectus efficitur in. Nulla non pharetra justo. Nunc viverra consectetur bibendum. ',
+      desc: 'ປັດຈຸບັນບໍລິສັດພວກເຮົາມີຫຼາຍສາຂາທົ່ວທຸກພາກພາຍໃນປະເທດ ທ່ານສາມາດໃຊ້ບໍລິການໄດ້ທຸກສາຂາທີ່ໃກ້ບ້ານທ່ານ ',
       items:[
       {
         id: 1,
