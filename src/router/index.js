@@ -12,68 +12,85 @@ import South from '@/components/Page/Branch/South'
 import Blog from '@/components/Page/Blog'
 import Price from '@/components/Page/Price'
 import Service from '@/components/Page/Service'
+import NotfoundPage from '@/components/Page/Notfound'
 
 Vue.use(Router)
 
 export default new Router({
 	mode: 'history',
   routes: [
-    {
-      path: '/',
-      name: 'home',
-      component: Index
-    },
-    {
-    	path: '/about',
-    	name: 'about',
-    	component: About
-    },
-    {
-    path: '/contact',
-    name: 'contact',
-    component: Contact
-    },
+  {
+    path: '/',
+    name: 'home',
+    component: Index,
+    meta:{title:'Home'}
+  },
+  {
+   path: '/about',
+   name: 'about',
+   component: About,
+   meta: {title: 'About'}
+ },
+ {
+  path: '/contact',
+  name: 'contact',
+  component: Contact,
+  meta: {title: 'Contact'}
+},
     // branch
     {
       path: '/all/branch',
       name: 'allbranch',
       component: AllBranch
     },
-        {
+    {
       path: '/branch/vientiane',
       name: 'vientiane',
-      component: Vientiane
+      component: Vientiane,
+      meta: {title: 'ສາຂານະຄອນຫຼວງ'}
     },
-        {
+    {
       path: '/branch/north',
       name: 'north',
-      component: North
+      component: North,
+      meta: {title: 'ສາຂາພາກເໜືອ'}
     },
-        {
+    {
       path: '/branch/central',
       name: 'central',
-      component: Central
+      component: Central,
+      meta: {title: 'ສາຂາພາກກາງ'}
     },
-        {
+    {
       path: '/branch/south',
       name: 'south',
-      component: South
+      component: South,
+      meta: {title: 'ສາຂາພາກໃຕ້'}
     },
-      {
+    {
       path: '/blog',
       name: 'blog',
       // redirect: { name: 'home' },
       component: Blog
     },
-          {
+    {
       path: '/price',
       name: 'price',
-      component: Price
+      component: Price,
+      meta: {title: 'ຄ່າບໍລິການ'}
     },
-              {
+    {
       path: '/service',
       name: 'service',
-      component: Service
-    }
-  ]
-})
+      component: Service,
+      meta: {title: 'ການບໍລິການ'}
+    },
+    {
+      path: '*',
+      name: 'notfound',
+      component: NotfoundPage,
+      meta: {title: 'Not found page'}
+    },
+
+    ]
+  })

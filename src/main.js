@@ -17,6 +17,11 @@ Vue.use(VueLoading, {
 
 Vue.use(Vuex)
 
+router.beforeEach((to, from, next) =>{
+	document.title = to.meta.title
+	next()
+});
+
 new Vue({
 
   el: '#app',

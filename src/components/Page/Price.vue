@@ -62,7 +62,6 @@
      :height="450"
      :clickToClose="true"
      :scrollable="true"
-     :transition="true"
 	>
 		<div class="modals-calculate">
 			<div class="has-text-centered">

@@ -106,11 +106,14 @@
   <div class="section branch">
    <Branch/>
  </div>
- <div class="news">
+<!-- news  -->
+
+<!--  <div class="news">
   <div>
     <News/>
   </div>
-</div>
+</div> -->
+
 </div>
 </template>
 <script>

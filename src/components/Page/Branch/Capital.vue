@@ -70,9 +70,8 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<p>Name: {{ name }}</p>
-				<p>Description: {{ description }}</p>
-				<p>Price: {{ price }}</p>
+		<!-- 		<p>Name: {{ name }}</p>
+				<p>Description: {{ description }}</p> -->
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-primary">Save changes</button>
@@ -84,11 +83,11 @@
 
 <!-- codes ommited -->
 <div>
-	<li v-for="item in items">
+<!-- 	<li v-for="item in items">
 		<span>{{ item.itemName }}</span>
 		<span>{{ item.itemPrice }}</span>
 		<span><button @click="itemClicked(item)">ShowMore</button></span>
-	</li>
+	</li> -->
 </div>
 
 </div>

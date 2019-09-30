@@ -13,7 +13,7 @@
 								<div class="margin-bottom-60px">
 									<div class="contact-info opacity-9">
 										<!-- <i class="fa fa-phone margin-right-10px"></i> -->
-										<i class="fab fa-map-marker-alt"></i>
+										<!-- 			<i class="fab fa-map-marker-alt"></i> -->
 										<div class="text">
 											<h2 class="title">ສຳນັກງານໃຫ່ຍ</h2>
 											<span class="font-weight-500 text-uppercase">ບ້ານຮ່ອງຄ້າ, ເມືອງຈັນທະບູລີ, ນະຄອນຫຼວງວຽງຈັນ</span>
@@ -22,7 +22,7 @@
 								</div>
 								<div class="text">
 									<span class="title-in"><i class="fa fa-phone margin-right-10px"></i>Call Center :</span>
-									<span class="font-weight-500 text-uppercase">20 55 538 210 / 20 55 538 211</span>
+									<span class="font-weight-500 text-uppercase">20 55538210 / 20 55538211</span>
 								</div>
 							</div>
 						</div>
@@ -30,7 +30,10 @@
 							<h2 class="title">Our Service</h2>
 							<ul class="footer-menu">
 								<li>
-									<router-link to ="/price">ລາຄາ</router-link>
+									<router-link to ="/price">ຄ່າບໍລິການ</router-link>
+								</li>
+								<li>
+									<router-link to="/">ການບໍລິການ</router-link>
 								</li>
 								<li>
 									<router-link to ="/contact">ຕິດຕໍ່ພວກເຮົາ</router-link>
@@ -38,9 +41,6 @@
 								</li>
 								<li>
 									<router-link to="/about">ກ່ຽວກັບພວກເຮົາ</router-link>
-								</li>
-								<li>
-									<router-link to="/">Service</router-link>
 								</li>
 							</ul>
 						</div>

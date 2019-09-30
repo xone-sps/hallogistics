@@ -10,7 +10,7 @@
                            <div class="columns justify-content-center has-text-centered">
                             <div class="column is-8">
                              <div class="h2">ທ່ານ ບຸນພັນ ມາຢົງເຊິ່ນ</div>
-                             <div class="des">{{description}}</div>
+                             <!-- <div class="des">{{description}}</div> -->
                          </div>
                      </div>
                  </div>
