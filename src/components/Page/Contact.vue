@@ -13,9 +13,9 @@
                </div>
                <div class="columns">
                 <div class="column">
-                    <div><strong>Phone:</strong> 20 55538210 / 2055538211</div>
-                    <div><strong>Email:</strong></div>
-                    <div><strong>Adress:</strong>ບ້ານຮ່ອງຄ້າ, ເມືອງຈັນທະບູລີ, ນະຄອນຫຼວງວຽງຈັນ</div>
+                    <div><h3>Phone: 20 55538210 / 2055538211</h3> </div>
+                    <div><h3>Email: hal.lao.2008@hotmail.com</h3></div>
+                    <div><h3>Adress: ບ້ານຮ່ອງຄ້າ, ເມືອງຈັນທະບູລີ, ນະຄອນຫຼວງວຽງຈັນ</h3></div>
                 </div>
             </div>
             <h1>Google map</h1>

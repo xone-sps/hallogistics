@@ -86,7 +86,7 @@ export default new Router({
       meta: {title: 'ການບໍລິການ|Hal Logistics'}
     },
     {
-      path: '*',
+      path: '/*',
       name: 'notfound',
       component: NotfoundPage,
       meta: {title: 'Not found page'}

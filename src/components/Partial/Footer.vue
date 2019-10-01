@@ -89,9 +89,11 @@
 					</div>
 
 					<ul class="social-media list-inline margin-0px text-white">
-						<li class="list-inline-item"><a class="facebook" href="https://www.facebook.com/HAL.Logistics" target="_bank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						<li class="list-inline-item"><a class="youtube" href="https://www.youtube.com/channel/UClfgjHxF1S8uEsNsqcRBZAA" target="_bank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-						<li class="list-inline-item"><a class="twitter" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li class="list-inline-item"><a class="facebook" href="https://www.facebook.com/HAL.Logistics" target="_bank"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+						</li>
+						<li class="list-inline-item"><a class="youtube" href="https://www.youtube.com/channel/UClfgjHxF1S8uEsNsqcRBZAA" target="_bank"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
+						<li class="list-inline-item"><a class="twitter" href="#">
+							<i class="fab fa-twitter"></i></a></li>
 					</ul>
 				</div>
 			</div>

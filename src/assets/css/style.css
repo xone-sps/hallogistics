@@ -9,11 +9,6 @@
     src: url(../fonts/BoonHome-700.ttf) format("truetype");
 }
 
-/*
-@import url(http://fonts.googleapis.com/earlyaccess/notosanslao.css);*/
-*{
-   font-family:'boonhome-regular', 'Google Sans', arial, serif, sans-serif !important;
-}
 body, button, input, select, textarea {
 
   font-family:'boonhome-regular', 'Google Sans', arial, serif, sans-serif !important;

@@ -64,7 +64,7 @@
            </div>
          </div>
          <router-link class="navbar-item" :to="{name:'price'}" active-class="active" exact>
-          ລາຄາ
+          ຄ່າບໍລິການ
         </router-link>
         <router-link class="navbar-item" :to="{name:'home'}" active-class="active" exact>
           ຂ່າວສານ
@@ -138,8 +138,8 @@
     </li>
     <li>
       <a href="/price">
-       <i class="fa fa-money"></i>
-       <span>ລາຄາ</span>
+       <i class="fas fa-money-check-alt"></i>
+       <span>ຄ່າບໍລິການ</span>
      </a>
    </li>
    <li>

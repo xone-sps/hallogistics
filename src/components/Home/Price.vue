@@ -6,7 +6,7 @@
                 <div class="section-title margin-bottom-40px">
                     <div class="columns">
                         <div class="column has-text-centered">
-                         <div class="icon text-main-color"><i class="fa fa-money"></i></div>
+                         <div class="icon text-main-color"><i class="fas fa-money-check-alt"></i></div>
                      </div>
                  </div>
                  <div class="columns justify-content-center has-text-centered">

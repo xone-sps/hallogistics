@@ -52,6 +52,7 @@
       :height="'auto'"
       :clickToClose="true"
       :scrollable="true"
+      v-if="data"
       >
       <div class="modals-calculate" v-if="status != false">
         <div class="has-text-centered">
@@ -86,6 +87,7 @@
       </div>
     </modal>
     <!-- Error modal -->
+
     <!-- Modal tracking -->
     <modal name="modalError"
     :width="500"
@@ -152,7 +154,7 @@
         data:'',
         parcelId:'',
         status: false,
-        errors:[],
+        errors:'',
         des:[]
       }
     },
@@ -180,12 +182,17 @@ methods:{
       res => {      
         this.data = res.data.trackingEventList;
         this.des = res.data.Response_Info;
-        this.$modal.show('calculate');
-        this.$loading(false)
-       // console.log(res.data);
-     })
-
-    .catch(error => {
+        if(this.des){
+            this.status = true,
+            this.$modal.show('calculate');
+            this.$loading(false)
+        }else{
+          this.$modal.show('modalError');
+          this.$loading(false);
+        }
+        //this.$modal.show('calculate');
+        //this.$loading(false)
+     }).catch(error => {
       this.$loading(true)
     // console.log('ID not match');
   })
@@ -193,11 +200,11 @@ methods:{
   toClick(){
     this.errors = [];
     if(!this.parcelId){
-      this.errors.push("ປ້ອນເລກໃບບິນ !");
+      this.errors="ກາລຸນາປ້ອນເລກໃບບິນ !";
     } else{
       this.getData();
-      this.status = true,
-      this.$modal.hide('modalError');
+      this.status = true
+      //this.$modal.hide('modalError');
     }
   },
   openModal () {
@@ -213,8 +220,12 @@ methods:{
   }
 },
 created(){
-},
 
+},
+ mounted() {
+    // this.getData()
+    // this.$loading(true);
+  },
 components: {
   Banner,
   Service,
@@ -228,6 +239,7 @@ components: {
 </script>
 
 <style scoped>
+
 .calculate{
   overflow-y:auto;
 }
@@ -270,5 +282,8 @@ table tbody tr th.tracking-date{
 }
 .required{
   color:#e53935 ;
+}
+.v--modal-block-scroll{
+  width: 100% !important;
 }
 </style>
