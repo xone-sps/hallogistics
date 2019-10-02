@@ -100,7 +100,7 @@
         <img style="max-height: 56px;" src="@/assets/logo.png">
         <h2>ກວດສອບພັດສະດຸ</h2>
         <div>
-          <p>ບໍ່ພົດພັດສະດຸກາລຸນາກວດລະຫັດຄືນອີກຄັ້ງ</p>
+          <p>ບໍ່ພົບພັດສະດຸກາລຸນາກວດລະຫັດຄືນອີກຄັ້ງ !</p>
         </div>
       </div>
       <div class="has-text-centered modal-footer">
@@ -158,28 +158,13 @@
         des:[]
       }
     },
-//   methods:{
-//     getData(){
-//         this.$loading (true)
-//       axios.get("https://cors-anywhere.herokuapp.com/http://trackhal.com/cgi-bin/GInfo.dll?EmsApiTrack&ntype=10000&cno="+this.parcelId)
-//       .then(
-//         res => {      
-//           this.data = res.data.trackingEventList;
-//           this.des = res.data.Response_Info;
-//          this.$loading(false)
-//        // console.log(res.data);
-//     }).catch(error => {
-//     this.$loading(true)
-//     console.log('ID not match');
-// })
-// },
 
 methods:{
   getData(){
-    this.$loading (true)
+   this.$loading (true)  
     axios.get("https://cors-anywhere.herokuapp.com/http://trackhal.com/cgi-bin/GInfo.dll?EmsApiTrack&ntype=10000&cno="+this.parcelId)
     .then(
-      res => {      
+      res => {    
         this.data = res.data.trackingEventList;
         this.des = res.data.Response_Info;
         if(this.des){
@@ -198,7 +183,7 @@ methods:{
   })
   },
   toClick(){
-    this.errors = [];
+    this.errors ='';
     if(!this.parcelId){
       this.errors="ກາລຸນາປ້ອນເລກໃບບິນ !";
     } else{
@@ -220,7 +205,7 @@ methods:{
   }
 },
 created(){
-
+   this.getData()
 },
  mounted() {
     // this.getData()

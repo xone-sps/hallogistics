@@ -35,7 +35,6 @@ import vangvieng from '@/assets/images/branchs/central/br_vangvieng.jpeg';
 import phonhung from '@/assets/images/branchs/central/br_phonehong.jpeg';
 import parksun from '@/assets/images/branchs/central/br_parksun.jpeg';
 
-
 export default{
 // name:'Vientiane'
 data() {
