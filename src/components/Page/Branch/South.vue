@@ -31,6 +31,8 @@
 </div>
 </template>
 <script>
+import savannaket from '@/assets/images/branchs/central/br_svk.jpeg';
+import khammuan from '@/assets/images/branchs/central/br_khm.jpeg';
 import salavan from '@/assets/images/branchs/south/br_salavan.jpeg';
 import champasuk from '@/assets/images/branchs/south/br_champasuk.jpeg';
 import attapue from '@/assets/images/branchs/south/br_attapue.jpeg';
@@ -42,11 +44,28 @@ export default{
 data() {
   return {
     title:'ສາຂາ ພາກໃຕ້',
-    description:'ປັດຈຸບັນນີ້ໃນພາກເໜືອ ພວກເຮົາມີຈຸດບໍລິການ 4 ສາຂາ ທ່ານສາມາດຝາກເຄື່ອງໄດ້ທຸກສາຂາທີ່ຢູ່ໃກ້ບ້ານທ່ານ! ແລະ ຮັບເຖິງທີ່ສົ່ງເຖິງບ່ອນສະເພາະເຂດບໍລິການທີ່ກຳນົດໃນລາຍລະອຽດຂອງແຕ່ລະສາຂາ',
+    description:'ປັດຈຸບັນນີ້ໃນພາກເໜືອ ພວກເຮົາມີຈຸດບໍລິການ 6 ສາຂາ ທ່ານສາມາດຝາກເຄື່ອງໄດ້ທຸກສາຂາທີ່ຢູ່ໃກ້ບ້ານທ່ານ! ແລະ ຮັບເຖິງທີ່ສົ່ງເຖິງບ່ອນສະເພາະເຂດບໍລິການທີ່ກຳນົດໃນລາຍລະອຽດຂອງແຕ່ລະສາຂາ',
 
     items: [
-    {
+
+        {
      id: 1,
+      name: 'ສາຂາຄຳມ່ວນ',
+      phone: '0209334343',
+      image: khammuan,
+      googlemap:'map',
+      satus: 'default',
+   },
+       {
+     id: 2,
+      name: 'ສາຂາສະຫວັນນະເຂດ',
+      phone: '0209334343',
+      image: savannaket,
+      googlemap:'map',
+      satus: 'default',
+   },
+    {
+     id: 3,
      name: 'ສາຂາສາລະວັນ',
      phone: '0209334343',
      image: salavan,
@@ -54,7 +73,7 @@ data() {
      satus: 'default',
    },
    {
-     id: 2,
+     id: 4,
      name: 'ສາຂາຈຳປາສັກ',
      phone: '0209334343',
      image: champasuk,
@@ -62,7 +81,7 @@ data() {
      satus: 'default',
    },
    {
-    id: 3,
+    id: 5,
     name: 'ສາຂາເຊກອງ',
     phone: '0209334343',
     image: xekong,
@@ -70,7 +89,7 @@ data() {
     satus: 'default',
   },
   {
-   id: 4,
+   id: 6,
    name: 'ສາຂາອັດຕະປື',
    phone: '0209334343',
    image: attapue,

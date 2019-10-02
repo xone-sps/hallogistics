@@ -30,21 +30,18 @@
 </section>
 	</div>
 </template>
-
-
 <script>
 import vangvieng from '@/assets/images/branchs/central/br_vangvieng.jpeg';
 import phonhung from '@/assets/images/branchs/central/br_phonehong.jpeg';
 import parksun from '@/assets/images/branchs/central/br_parksun.jpeg';
-import savannaket from '@/assets/images/branchs/central/br_svk.jpeg';
-import khammuan from '@/assets/images/branchs/central/br_khm.jpeg';
+
 
 export default{
 // name:'Vientiane'
 data() {
 	return {
 		title:'ສາຂາ ພາກກາງ',
-		description:'ປັດຈຸບັນນີ້ໃນພາກກາງ ພວກເຮົາມີຈຸດບໍລິການ 5 ສາຂາ ທ່ານສາມາດຝາກເຄື່ອງໄດ້ທຸກສາຂາທີ່ຢູ່ໃກ້ບ້ານທ່ານ! ແລະ ຮັບເຖິງທີ່ສົ່ງເຖິງບ່ອນສະເພາະເຂດບໍລິການທີ່ກຳນົດໃນລາຍລະອຽດຂອງແຕ່ລະສາຂາ',
+		description:'ປັດຈຸບັນນີ້ໃນພາກກາງ ພວກເຮົາມີຈຸດບໍລິການ 3 ສາຂາ ທ່ານສາມາດຝາກເຄື່ອງໄດ້ທຸກສາຂາທີ່ຢູ່ໃກ້ບ້ານທ່ານ! ແລະ ຮັບເຖິງທີ່ສົ່ງເຖິງບ່ອນສະເພາະເຂດບໍລິການທີ່ກຳນົດໃນລາຍລະອຽດຂອງແຕ່ລະສາຂາ',
 
 		items: [
 		{
@@ -68,22 +65,6 @@ data() {
 			name: 'ສາຂາປາກຊັນ',
 			phone: '0209334343',
 			image: parksun,
-			googlemap:'map',
-			satus: 'default',
-		},
-		{
-			id: 4,
-			name: 'ສາຂາຄຳມ່ວນ',
-			phone: '0209334343',
-			image: khammuan,
-			googlemap:'map',
-			satus: 'default',
-		},
-		{
-			id: 5,
-			name: 'ສາຂາສະຫວັນນະເຂດ',
-			phone: '0209334343',
-			image: savannaket,
 			googlemap:'map',
 			satus: 'default',
 		},

@@ -30,7 +30,7 @@
           </router-link>
           <div class="navbar-item has-dropdown is-hoverable">
             <router-link class="navbar-link" :to="{name:'vientiane'}" active-class="active" exact>
-              ສາຂາ
+              ເຂດບໍລິການ
             </router-link>
 
             <div class="navbar-dropdown">
