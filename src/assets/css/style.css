@@ -39,7 +39,7 @@ footer.footer ul li a:hover{
 }
 
 .banner{
-	 padding: 20px 0px 150px 0px;
+	 padding: 20px 10px 50px 10px;
     background-image: url(../../assets/images/slider/slider2.jpg);
     background-size: cover;
 }
@@ -270,8 +270,10 @@ a.nile-bottom {
     -webkit-box-shadow: 0px 0px 36px -13px rgba(0, 0, 0, 0.08);
     -moz-box-shadow: 0px 0px 36px -13px rgba(0, 0, 0, 0.08);
     box-shadow: 0px 0px 36px -13px rgba(0, 0, 0, 0.08);
-    margin-bottom: 40px;
 }
+/*.title.main-color.branch.white{
+    color:#fff !important;
+}*/
 .price-table.branch{
         -webkit-box-shadow: 0px 0px 36px -13px rgba(13, 12, 21, 01.0);
     -moz-box-shadow: 0px 0px 36px -13px rgba(13, 12, 21, 01.0);
@@ -298,7 +300,7 @@ box-shadow: 0px 0px 36px -13px rgba(13, 12, 21, 01.0);
 .margin-bottom-40px {
     margin-bottom: 40px;
 }
-.section-title .h2:before {
+/*.section-title .h2:before {
     border-bottom: 2px solid #d1d1d1;
     content: " ";
     width: 100px;
@@ -314,7 +316,7 @@ box-shadow: 0px 0px 36px -13px rgba(13, 12, 21, 01.0);
     position: absolute;
     right: -120px;
     bottom: 12px;
-}
+}*/
 .price-table .per-mile {
     background-color: #efefef;
     width: 130px;
@@ -553,7 +555,8 @@ a.nile-bottom:hover {
     width: 100%;
 }
 .www-Table thead tr {
-    background-color: #c87c29;
+    /*background-color: #c87c29;*/
+    background-color: #F52F30;
     border-bottom: 1px solid #e5e8ed;
 }
 .www-Table thead th {
@@ -602,6 +605,8 @@ a.nile-bottom:hover {
 .margin-top-h{
     margin-top: 40px;
 }
+
+
 @media (max-width: 1024px){
     .top{
     display: none;
@@ -611,8 +616,7 @@ a.nile-bottom:hover {
 @media (max-width: 520px){
     .www-Table thead th {
         border: none;
-        color: #031b4e;
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 400;
         padding: 14px 10px 13px;
         text-align: left;
@@ -621,7 +625,7 @@ a.nile-bottom:hover {
     }
     .www-Table tbody td, .www-Table tbody th {
         border: none;
-        font-size: 11px;
+        font-size: 13px;
         padding: 11px 10px 10px;
         vertical-align: middle;
     }

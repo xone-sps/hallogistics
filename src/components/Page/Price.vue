@@ -6,7 +6,7 @@
 			    	<div class="section-title margin-bottom-40px">
                 <div class="columns">
                     <div class="column has-text-centered">
-                     <div class="icon text-main-color"><i class="fa fa-money"></i></div>
+                <div class="icon text-main-color"><i class="fas fa-money-check-alt"></i></div>
                  </div>
              </div>
              <div class="columns justify-content-center has-text-centered">
@@ -32,7 +32,7 @@
 								<th>
 									ລາຄາກ່ອງ(ກີບ)
 								</th>
-								<th>ຄິດໄລ່ລາຄາ</th>
+								<!-- <th>ຄິດໄລ່ລາຄາ</th> -->
 							</tr>
 						</thead>
 
@@ -48,10 +48,10 @@
 
 								<td v-html="price.packgage">
 								</td>
-
+<!-- 
 								<td>
 									<a @click="openModal()" type="button" class="button is-danger is-rounded">ຄິດໄລ່</a>
-								</td>
+								</td> -->
 							</tr>
 						</tbody>
 					</table>
@@ -120,7 +120,7 @@
 								<th>
 									ລາຄາກ່ອງ(ກີບ)
 								</th>
-								<th>ຄິດໄລ່ລາຄາ</th>
+								<!-- <th>ຄິດໄລ່ລາຄາ</th> -->
 							</tr>
 						</thead>
 
@@ -136,10 +136,10 @@
 
 								<td v-html="overPrice.packgage">
 								</td>
-
+<!-- 
 								<td>
 									<a @click="openModal()" type="button" class="button is-danger is-rounded">ຄິດໄລ່</a>
-								</td>
+								</td> -->
 							</tr>
 						</tbody>
 					</table>

@@ -39,7 +39,7 @@
               <div class="column">
         <div class="price-table">
           <div class="title main-color branch">ພາກເໜືອ</div>
-          <div class="per-mile">ລາຍລະອຽດ</div>
+              <div class="icons"><img src="@/assets/images/icons/delivery100x100.png" alt=""></div>
         <div class="padding-25px">
           <router-link to="/branch/north" class="nile-bottom sm-block">ເບິ່ງລາຍລະອຽດ</router-link>
         </div>
@@ -47,8 +47,8 @@
     </div>
         <div class="column is-3">
           <div class="price-table active">
-            <div class="title main-color branch">ນະຄອນຫຼວງວຽວຈັນ</div>
-            <div class="per-mile">ລາຍລະອຽດ</div>
+            <div class="main-color branch is-white title" style="color:#fff;">ນະຄອນຫຼວງວຽວຈັນ</div>
+                <div class="icons"><img src="@/assets/images/icons/delivery100x100.png" alt=""></div>
            <div class="padding-25px">
             <router-link to="/branch/vientiane" class="nile-bottom sm-block">ເບິ່ງລາຍລະອຽດ</router-link>
           </div>
@@ -59,7 +59,7 @@
       <div class="column is-3">
         <div class="price-table">
           <div class="title main-color branch">ພາກກາງ</div>
-          <div class="per-mile">ລາຍລະອຽດ</div>
+              <div class="icons"><img src="@/assets/images/icons/delivery100x100.png" alt=""></div>
         <div class="padding-25px">
           <router-link to="/branch/central" class="nile-bottom sm-block">ເບິ່ງລາຍລະອຽດ</router-link>
         </div>
@@ -71,7 +71,7 @@
     <div class="column is-3">
       <div class="price-table">
         <div class="title main-color branch">ພາກໃຕ້</div>
-        <div class="per-mile">ລາຍລະອຽດ</div>
+            <div class="icons"><img src="@/assets/images/icons/delivery100x100.png" alt=""></div>
         <div class="padding-25px">
           <router-link to="/branch/south" class="nile-bottom sm-block">ເບິ່ງລາຍລະອຽດ</router-link>
         </div>

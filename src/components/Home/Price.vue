@@ -19,11 +19,10 @@
            <!-- // End Title -->
 
            <div class="columns">
-
             <!-- item -->
             <div class="column is-3 col-md-6">
-                <div class="price-table active">
-                    <div class="title main-color">ເລີ່ມຕົ້ນ/Mini</div>
+                <div class="price-table">
+                    <div class="title main-color is-white">ເລີ່ມຕົ້ນ/Mini</div>
                     <div class="price">12,000<span>₭</span></div>
 <!--                     <div class="per-mile">ລາຍລະອຽດ</div>
                     <ul class="elements">
@@ -38,7 +37,7 @@
                     <li>24/7 support</li>
                 </ul> -->
                 <div class="padding-25px">
-                    <a href="#" class="nile-bottom sm-block">ລາຍລະອຽດ</a>
+                    <a href="/price" class="nile-bottom sm-block">ລາຍລະອຽດ</a>
                 </div>
             </div>
         </div>
@@ -50,7 +49,7 @@
                 <div class="title main-color">S</div>
                 <div class="price">15,000<span>₭</span></div>
             <div class="padding-25px">
-                <a href="#" class="nile-bottom sm-block">ລາຍລະອຽດ</a>
+                <a href="price" class="nile-bottom sm-block">ລາຍລະອຽດ</a>
             </div>
         </div>
     </div>
@@ -62,7 +61,7 @@
             <div class="title main-color">S+</div>
             <div class="price">20,000<span>₭</span></div>
          <div class="padding-25px">
-            <a href="#" class="nile-bottom sm-block">ລາຍລະອຽດ</a>
+            <a href="price" class="nile-bottom sm-block">ລາຍລະອຽດ</a>
         </div>
     </div>
 </div>
