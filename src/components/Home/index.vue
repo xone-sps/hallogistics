@@ -93,7 +93,10 @@
 
     <!-- Modal tracking -->
     <modal name="modalError"
-  
+      :width="'55%'"
+      :minWidth="320"
+      :minHeight="230"
+      :maxWidth="720"
     :height="'auto'"
     :clickToClose="true"
     :scrollable="true"
@@ -101,11 +104,12 @@
     <div class="modals-calculate">
       <div class="has-text-centered">
         <img style="max-height: 56px;" src="@/assets/favorite.png">
-        <h2>ກວດສອບພັດສະດຸ</h2>
+        <h2><strong>ກວດສອບພັດສະດຸ</strong></h2>
         <div>
           <p>ບໍ່ພົບພັດສະດຸກາລຸນາກວດລະຫັດຄືນອີກຄັ້ງ !</p>
         </div>
       </div>
+      <br>
       <div class="has-text-centered modal-footer">
         <a @click="hidemodalError()" class="button is-danger is-rounded">ປິດໜ້ານີ້</a>
       </div>
