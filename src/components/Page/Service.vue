@@ -1,9 +1,5 @@
 <template>
 	<div>
-		<section class="section">
-			<div class="container">
-				<h2>Services</h2>
-			</div>
-		</section>
+		<h3>We Provide</h3>
 	</div>
 </template>

@@ -6,7 +6,7 @@
         <div class="container">
           <div class="margin-top-h">
             <div class="columns">
-              <div class="column is-8 is-offset-2">
+              <div class="column is-8 is-offset-2 has-text-centered">
                 <div class="main_title"><h2>ກວດສອບພັດສະດຸ</h2></div>
                 <div class="saidbar-search">
                   <form v-on:submit.prevent="toClick()">
@@ -48,18 +48,21 @@
       </div>
       <!-- Modal tracking -->
       <modal name="calculate"
-      :width="500"
       :height="'auto'"
       :clickToClose="true"
       :scrollable="true"
+      :width="'75%'"
+      :minWidth="320"
+      :minHeight="230"
+      :maxWidth="720"
       v-if="data"
       >
       <div class="modals-calculate" v-if="status != false">
         <div class="has-text-centered">
-          <img style="max-height: 56px;" src="@/assets/logo.png">
+          <img style="max-height: 56px;" src="@/assets/favorite.png">
           <h2>ກວດສອບພັດສະດຸ</h2>
           <div>
-            <h2>
+            <h2 class="checking-title">
               {{des.From}} &#8646; {{des.Destination}}
             </h2>
           </div>
@@ -68,7 +71,7 @@
 
           <thead>
             <tr>
-              <th>ວັນທີ ແລະເວລາ</th>
+              <th>ວັນທີ/ເວລາ</th>
               <th>ສະຖານະ</th>
               <th>ສາງ</th>
             </tr>
@@ -90,14 +93,14 @@
 
     <!-- Modal tracking -->
     <modal name="modalError"
-    :width="500"
+  
     :height="'auto'"
     :clickToClose="true"
     :scrollable="true"
     >
     <div class="modals-calculate">
       <div class="has-text-centered">
-        <img style="max-height: 56px;" src="@/assets/logo.png">
+        <img style="max-height: 56px;" src="@/assets/favorite.png">
         <h2>ກວດສອບພັດສະດຸ</h2>
         <div>
           <p>ບໍ່ພົບພັດສະດຸກາລຸນາກວດລະຫັດຄືນອີກຄັ້ງ !</p>
@@ -155,6 +158,7 @@
         parcelId:'',
         status: false,
         errors:'',
+        active:false,
         des:[]
       }
     },
@@ -205,7 +209,7 @@ methods:{
   }
 },
 created(){
-   this.getData()
+   this.getData();
 },
  mounted() {
     // this.getData()
@@ -232,13 +236,14 @@ components: {
   margin:20px 10px 20px 10px;
 }
 table tbody tr th.tracking-date{
-  font-size:12px;
+  font-size:13px;
 }
 .v--modal{
   overflow-y:auto;
   overflow:auto;
   left: auto !important;
   top: 0;
+  left: 0 !important;
 }
 .v--modal-overlay .v--modal-box{
   overflow:auto !important;
@@ -270,5 +275,60 @@ table tbody tr th.tracking-date{
 }
 .v--modal-block-scroll{
   width: 100% !important;
+}
+@media (max-width: 520px){
+.v--modal{
+  overflow-y:auto;
+  overflow:auto;
+  left: auto !important;
+  top: 0;
+  width: 300px !important;
+}
+.table th {
+    color: #000;
+    font-weight: 400;
+    font-size: 11px;
+    }
+    table tbody tr th.tracking-date{
+  font-size:11px;
+  font-weight: 300;
+}
+.checking-title{
+  font-size: 14px;
+}
+.v--modal-overlay .v--modal-box{
+  overflow:auto !important;
+  height:auto;
+  width:300px !important;
+  top:100;
+}
+}
+@media (max-width: 420px){
+.v--modal{
+  overflow-y:auto;
+  overflow:auto;
+  left: auto !important;
+  top: 0;
+  width: 300px !important;
+}
+.table th {
+    color: #000;
+    font-weight: 400;
+    font-size: 10px;
+    }
+    table tbody tr th.tracking-date{
+  font-size:9px;
+  font-weight: 300;
+}
+.checking-title{
+  font-size: 12px;
+  font-weight: 500;
+}
+.v--modal-overlay .v--modal-box{
+  overflow:auto !important;
+  height:auto;
+  width:300px !important;
+  top:100;
+}
 }
 </style>

@@ -46,8 +46,8 @@
       </div>
     </div>
         <div class="column is-3">
-          <div class="price-table active">
-            <div class="main-color branch is-white title" style="color:#fff;">ນະຄອນຫຼວງວຽວຈັນ</div>
+          <div class="price-table">
+            <div class="main-color branch is-white title">ນະຄອນຫຼວງວຽວຈັນ</div>
                 <div class="icons"><img src="@/assets/images/icons/delivery100x100.png" alt=""></div>
            <div class="padding-25px">
             <router-link to="/branch/vientiane" class="nile-bottom sm-block">ເບິ່ງລາຍລະອຽດ</router-link>

@@ -19,33 +19,33 @@
            <!-- <i class="fas fa-bars"></i> -->
          </a>
        </div>
-       <div id="navbarBasicExample" class="navbar-menu">
+       <div class="navbar-menu">
         <div class="navbar-start">
           <router-link class="navbar-item" :to="{name:'home'}" active-class="active" exact>
             ໜ້າຫຼັກ
           </router-link>
 
-          <router-link class="navbar-item" :to="{name:'service'}" active-class="active" exact>
+<!--           <router-link class="navbar-item" :to="{name:'service'}" active-class="active" exact>
             ການບໍລິການ
-          </router-link>
+          </router-link> -->
           <div class="navbar-item has-dropdown is-hoverable">
             <router-link class="navbar-link" :to="{name:'vientiane'}" active-class="active" exact>
               ເຂດບໍລິການ
             </router-link>
 
             <div class="navbar-dropdown">
-              <router-link :to="{name:'vientiane'}" class="navbar-item" active-class="active" exact>
+              <a href="/branch/vientiane" class="navbar-item" active-class="active" exact>
                 ນະຄອນຫຼວງ
-              </router-link>
-              <router-link :to="{name:'north'}" class="navbar-item" active-class="active" exact>
+              </a>
+              <a href="/branch/north" class="navbar-item" active-class="active" exact>
                 ພາກເໜືອ
-              </router-link>
-              <router-link :to="{name:'central'}" class="navbar-item" active-class="active" exact>
+              </a>
+              <a href="/branch/central" class="navbar-item" active-class="active" exact>
                 ພາກກາງ
-              </router-link>
-              <router-link :to="{name:'south'}" class="navbar-item" active-class="active" exact>
+              </a>
+              <a href="/branch/south" class="navbar-item" active-class="active" exact>
                 ພາກໃຕ້
-              </router-link>
+              </a>
             </div>
           </div>
 
@@ -55,20 +55,20 @@
             </router-link>
 
             <div class="navbar-dropdown">
-              <router-link :to="{name:'about'}" class="navbar-item" active-class="active" exact>
+              <a href="/about" class="navbar-item" active-class="active" exact>
                 ກ່ຽວກັບພວກເຮົາ
-              </router-link>
-              <router-link :to="{name:'contact'}" class="navbar-item" active-class="active" exact>
+              </a>
+              <a href="/about" class="navbar-item" active-class="active" exact>
                ຕິດຕໍ່ພວກເຮົາ
-             </router-link>
+             </a>
            </div>
          </div>
          <router-link class="navbar-item" :to="{name:'price'}" active-class="active" exact>
           ຄ່າບໍລິການ
         </router-link>
-        <router-link class="navbar-item" :to="{name:'home'}" active-class="active" exact>
+<!--         <router-link class="navbar-item" :to="{name:'home'}" active-class="active" exact>
           ຂ່າວສານ
-        </router-link>
+        </router-link> -->
       </div>
 <!-- 
       <div class="navbar-end">

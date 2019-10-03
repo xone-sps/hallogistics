@@ -23,6 +23,7 @@ body{
 	margin:0;
 	padding: 0;
 	font-size: 16px;
+    overflow-x: hidden;
 }
 
 a.navbar-item, .navbar-link {
@@ -32,16 +33,16 @@ a.navbar-item:hover, .navbar-link:hover {
 	color: #E21312;
 }
 .active{
-		color: #E21312 !important;
+  color: #E21312 !important;
 }
 footer.footer ul li a:hover{
-		color: #E21312;
+  color: #E21312;
 }
 
 .banner{
-	 padding: 20px 10px 50px 10px;
-    background-image: url(../../assets/images/slider/slider2.jpg);
-    background-size: cover;
+  padding: 30px 10px 100px 10px;
+  background-image: url(../../assets/images/slider/slider2.jpg);
+  background-size: cover;
 }
 .main_title{
     font-size: 31px;
@@ -71,7 +72,7 @@ header .up-head {
 
 }
 header .top{
-        position: fixed;
+    position: fixed;
     width: 100%
 }
 .nav-top{
@@ -167,25 +168,25 @@ a{
 	font-weight: 400;
 }
 a:hover{
-		color:#E21312;
+  color:#E21312;
 }
 .active{
-		color:#E21312 !important;
+  color:#E21312 !important;
 }
 /*.navbar-brand{
 	width: 200px;
 	height: 100px;
-}*/
-.navbar-brand img{
-	max-height: 40px;
-}
+    }*/
+    .navbar-brand img{
+       max-height: 40px;
+   }
 
-/*Service*/
-.service{
+   /*Service*/
+   .service{
 /*    padding-top: 35px;
-    padding-bottom: 35px;*/
-    background-color: #474747;
-    color: #fff;
+padding-bottom: 35px;*/
+background-color: #474747;
+color: #fff;
 }
 .service .icon {
     float: left;
@@ -273,33 +274,33 @@ a.nile-bottom {
 }
 /*.title.main-color.branch.white{
     color:#fff !important;
-}*/
-.price-table.branch{
+    }*/
+    .price-table.branch{
         -webkit-box-shadow: 0px 0px 36px -13px rgba(13, 12, 21, 01.0);
-    -moz-box-shadow: 0px 0px 36px -13px rgba(13, 12, 21, 01.0);
-box-shadow: 0px 0px 36px -13px rgba(13, 12, 21, 01.0);
-}
-.price-table .title {
-    font-weight: 600;
-    padding-top: 25px;
-}
-.price-table .price {
-    font-size: 31px;
-    font-weight: 700;
-    margin: 12px auto;
-}
+        -moz-box-shadow: 0px 0px 36px -13px rgba(13, 12, 21, 01.0);
+        box-shadow: 0px 0px 36px -13px rgba(13, 12, 21, 01.0);
+    }
+    .price-table .title {
+        font-weight: 600;
+        padding-top: 25px;
+    }
+    .price-table .price {
+        font-size: 31px;
+        font-weight: 700;
+        margin: 12px auto;
+    }
 
-.justify-content-center {
-    -ms-flex-pack: center!important;
-    justify-content: center!important;
-}
-.section-title .icon {
-    font-size: 25px;
-}
+    .justify-content-center {
+        -ms-flex-pack: center!important;
+        justify-content: center!important;
+    }
+    .section-title .icon {
+        font-size: 25px;
+    }
 
-.margin-bottom-40px {
-    margin-bottom: 40px;
-}
+    .margin-bottom-40px {
+        margin-bottom: 40px;
+    }
 /*.section-title .h2:before {
     border-bottom: 2px solid #d1d1d1;
     content: " ";
@@ -316,80 +317,80 @@ box-shadow: 0px 0px 36px -13px rgba(13, 12, 21, 01.0);
     position: absolute;
     right: -120px;
     bottom: 12px;
-}*/
-.price-table .per-mile {
-    background-color: #efefef;
-    width: 130px;
-    border-radius: 20px;
-    margin: auto auto 35px auto;
-}
-.price-table ul.elements {
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-}
-.padding-25px {
-    padding: 25px;
-}
-.price-table ul.elements li:nth-child(odd) {
-    background-color: #f6f6f6;
-}
-.price-table ul.elements li {
-    padding: 8px;
-}
-a.nile-bottom.sm-block {
-    display: block;
-    padding: 6px 40px 6px 40px;
-    -webkit-box-shadow: 0px 0px 36px -13px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 0px 36px -13px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 0px 36px -13px rgba(0, 0, 0, 0.75);
-    font-weight: 500;
-}
-a.nile-bottom {
-    background-color: #e53935;
-    color: #fff;
-    border-radius: 35px;
-    display: inline-block;
-}
-.price-table.active {
-    background: #e53935;
-    color: #fff !important;
-}
-.price-table.active .per-mile {
-    background-color: rgba(255, 255, 255, 0.08);
-}
-.price-table.active ul.elements li:nth-child(odd) {
-    background-color: rgba(255, 255, 255, 0.08);
-}
-*, ::after, ::before {
-    box-sizing: border-box;
-}
-.border-radius-500 {
-    border-radius: 500px;
-}
-.icon {
-	width: 50px;
-	height: 50px;
-}
+    }*/
+    .price-table .per-mile {
+        background-color: #efefef;
+        width: 130px;
+        border-radius: 20px;
+        margin: auto auto 35px auto;
+    }
+    .price-table ul.elements {
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+    }
+    .padding-25px {
+        padding: 25px;
+    }
+    .price-table ul.elements li:nth-child(odd) {
+        background-color: #f6f6f6;
+    }
+    .price-table ul.elements li {
+        padding: 8px;
+    }
+    a.nile-bottom.sm-block {
+        display: block;
+        padding: 6px 40px 6px 40px;
+        -webkit-box-shadow: 0px 0px 36px -13px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 36px -13px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 0px 36px -13px rgba(0, 0, 0, 0.75);
+        font-weight: 500;
+    }
+    a.nile-bottom {
+        background-color: #e53935;
+        color: #fff;
+        border-radius: 35px;
+        display: inline-block;
+    }
+    .price-table.active {
+        background: #e53935;
+        color: #fff !important;
+    }
+    .price-table.active .per-mile {
+        background-color: rgba(255, 255, 255, 0.08);
+    }
+    .price-table.active ul.elements li:nth-child(odd) {
+        background-color: rgba(255, 255, 255, 0.08);
+    }
+    *, ::after, ::before {
+        box-sizing: border-box;
+    }
+    .border-radius-500 {
+        border-radius: 500px;
+    }
+    .icon {
+       width: 50px;
+       height: 50px;
+   }
 
-del {
-  color: rgba(255, 0, 0, 0.5);
-  text-decoration: none;
-  position: relative;
-}
-del:before {
-  content: " ";
-  display: block;
-  width: 100%;
-  border-top: 2px solid rgba(255, 0, 0, 0.8);
-  height: 14px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  transform: rotate(-7deg);
-}
-del{
-	font-size: 20px;
+   del {
+      color: rgba(255, 0, 0, 0.5);
+      text-decoration: none;
+      position: relative;
+  }
+  del:before {
+      content: " ";
+      display: block;
+      width: 100%;
+      border-top: 2px solid rgba(255, 0, 0, 0.8);
+      height: 14px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      transform: rotate(-7deg);
+  }
+  del{
+   font-size: 20px;
 }
 /*Blog*/
 .blog-item a.title {
@@ -403,7 +404,7 @@ del{
     background: #fff;
     -webkit-box-shadow: 0px 0px 83px -13px rgba(0, 0, 0, 0.09);
     -moz-box-shadow: 0px 0px 83px -13px rgba(0, 0, 0, 0.09);
-        box-shadow: 0px 0px 83px -13px rgba(0, 0, 0, 0.09);
+    box-shadow: 0px 0px 83px -13px rgba(0, 0, 0, 0.09);
 }
 .blog-item .date {
     width: 50px;
@@ -487,9 +488,9 @@ input#search-bar:focus:-ms-placeholder {
 .search-icon {
   position: relative;
   float: right;
-    top: -31px;
-    right: 16px;
-    color: #7461cF;
+  top: -31px;
+  right: 16px;
+  color: #7461cF;
 
 }
 /*About*/
@@ -595,25 +596,48 @@ a.nile-bottom:hover {
 }
 /*.www-Table tbody tr:not(:last-of-type) {
     border-bottom: 1px solid #e5e8ed;
-}*/
-.one-click-tabs table tbody tr:hover, .pricing-page table tbody tr:hover {
-    background-color: #f2f8ff; 
-}
-.www-Table tbody tr:hover{
-    background-color: #f2f8ff; 
-}
-.margin-top-h{
-    margin-top: 40px;
-}
+    }*/
+    .one-click-tabs table tbody tr:hover, .pricing-page table tbody tr:hover {
+        background-color: #f2f8ff; 
+    }
+    .www-Table tbody tr:hover{
+        background-color: #f2f8ff; 
+    }
+    .margin-top-h{
+        margin-top: 40px;
+    }
 
 
-@media (max-width: 1024px){
-    .top{
-    display: none;
-}
-}
+    @media (max-width: 1024px){
+        .top{
+            display: none;
+        }
+    }
+    @media (max-width: 720px){
+        .www-Table thead th {
+            border: none;
+            font-size: 14px;
+            font-weight: 400;
+            padding: 14px 10px 13px;
+            text-align: left;
+            text-transform: uppercase;
+            vertical-align: bottom;
+        }
+        .www-Table tbody td, .www-Table tbody th {
+            border: none;
+            font-size: 13px;
+            padding: 11px 10px 10px;
+            vertical-align: middle;
+        }
+        .banner{
+           padding: 30px 30px 50px 30px;
+           background-image: url(../../assets/images/slider/hal_cover_mobile.png);
+           background-size: cover;
+           width: 100%;
+       }
+   }
 
-@media (max-width: 520px){
+   @media (max-width: 520px){
     .www-Table thead th {
         border: none;
         font-size: 14px;
@@ -629,11 +653,17 @@ a.nile-bottom:hover {
         padding: 11px 10px 10px;
         vertical-align: middle;
     }
+    .banner{
+       padding: 30px 30px 60px 30px;
+       background-image: url(../../assets/images/slider/hal_cover_mobile2.png);
+       background-size: cover;
+       width: 100%;
+   }
 }
 
 
 @media (min-width: 992px){
-.d-lg-block {
-    display: block!important;
-}
+    .d-lg-block {
+        display: block!important;
+    }
 }

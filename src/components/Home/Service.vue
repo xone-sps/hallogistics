@@ -7,8 +7,8 @@
 				<div class="service">
                     <div class="clearfix">
                         <div class="icon">
-                        	<!-- <img src="@/assets/images/icons/service-dark-1.png" alt=""></div> -->
-                            <img src="@/assets/images/giphy.gif" alt=""></div>
+                        	<img src="@/assets/images/icons/service-dark-1.png" alt=""></div>
+                            <!-- <img src="@/assets/images/giphy.gif" alt=""></div> -->
                         <a href="#" class="title">ຮຸ່ງອາລຸນ ຂົນສົ່ງດ່ວນ</a>
                     </div>
                     <div class="dis clearfix">
