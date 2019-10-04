@@ -95,8 +95,6 @@
 </section>
 </div>
 </template>
-
-
 <script>
 import dongdork from '@/assets/images/branchs/vientiane/br_dongdork.jpeg';
 import hongkha from '@/assets/images/branchs/vientiane/br_hongkha.jpeg';
@@ -110,15 +108,12 @@ import sikhai from '@/assets/images/branchs/vientiane/br_sikhai.jpeg';
 import talatsao from '@/assets/images/branchs/vientiane/br_talatsao.jpeg';
 import xungjieng from '@/assets/images/branchs/vientiane/br_xungjieng.jpeg';
 import huakhua from '@/assets/images/branchs/vientiane/br_huakhua.jpeg';
-
-
-
 export default{
 // name:'Vientiane'
 data() {
 	return {
 		title:'ສາຂາ ແລະ ໜ່ວຍບໍລິການ ນະຄອນຫຼວງວຽງຈັນ',
-		description:'ປັດຈຸບັນນີ້ໃນນະຄອນຫຼວງວຽງຈັນ ພວກເຮົາມີຈຸດບໍລິການ 8 ສາຂາ ແລະ 3 ໜ່ວຍບໍລິການ ທ່ານສາມາດຝາກເຄື່ອງໄດ້ທຸກສາຂາທີ່ຢູ່ໃກ້ບ້ານທ່ານ! ແລະ ຮັບເຖິງທີ່ສົ່ງເຖິງບ່ອນສະເພາະເຂດບໍລິການທີ່ກຳນົດໃນລາຍລະອຽດຂອງແຕ່ລະສາຂາ',
+		description:'ປັດຈຸບັນນີ້ໃນນະຄອນຫຼວງວຽງຈັນ ພວກເຮົາມີຈຸດບໍລິການ 9 ສາຂາ ແລະ 3 ໜ່ວຍບໍລິການ ທ່ານສາມາດຝາກເຄື່ອງໄດ້ທຸກສາຂາທີ່ຢູ່ໃກ້ບ້ານທ່ານ! ແລະ ຮັບເຖິງທີ່ສົ່ງເຖິງບ່ອນສະເພາະເຂດບໍລິການທີ່ກຳນົດໃນລາຍລະອຽດຂອງແຕ່ລະສາຂາ',
 		selectedImage:'',
 
 		items: [
