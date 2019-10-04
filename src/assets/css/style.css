@@ -15,6 +15,7 @@ body, button, input, select, textarea {
 }
 h1, h2, h3, h4, h5, h6, p {
     font-family: 'Roboto', 'boonhome-bold' !important;
+    font-size: normal;
 }
 
 
@@ -24,6 +25,14 @@ body{
 	padding: 0;
 	font-size: 16px;
     overflow-x: hidden;
+}
+
+.v--modal-block-scroll {
+    overflow: hidden !important;
+    width: 100% !important;
+/*    top: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;*/
 }
 
 a.navbar-item, .navbar-link {
@@ -563,7 +572,7 @@ a.nile-bottom:hover {
 .www-Table thead th {
     border: none;
     color: #fff;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 600;
     padding: 14px 10px 13px;
     text-align: left;

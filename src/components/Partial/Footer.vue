@@ -21,7 +21,7 @@
 									</div>
 								</div>
 								<div class="text">
-									<span class="title-in"><i class="fa fa-phone margin-right-10px"></i>Call Center :</span>
+									<span class="title-in"><i class="fa fa-phone margin-right-10px"></i>ສາຍດ່ວນ:</span>
 									<span class="font-weight-500 text-uppercase">20 55538210 / 20 55538211</span>
 								</div>
 							</div>

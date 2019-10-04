@@ -13,9 +13,11 @@
                </div>
                <div class="columns">
                 <div class="column">
-                    <div><h3>Phone: 20 55538210 / 2055538211</h3> </div>
-                    <div><h3>Email: hal.lao.2008@hotmail.com</h3></div>
-                    <div><h3>Adress: ບ້ານຮ່ອງຄ້າ, ເມືອງຈັນທະບູລີ, ນະຄອນຫຼວງວຽງຈັນ</h3></div>
+                    <h3><strong>ສາຍດ່ວນ:</strong> 20 55538210 / 20 55538211</h3>
+                   <h3><strong>Wechat:</strong> HAL Logistics</h3>
+                    <h3><strong>Line ID:</strong> @hal2018</h3>
+                   <h3><strong>Email:</strong> hal.lao.2008@hotmail.com</h3>
+                   <h3><strong>ທີ່ຕັ້ງບໍລິສັດ:</strong> ບ້ານຮ່ອງຄ້າ, ເມືອງຈັນທະບູລີ, ນະຄອນຫຼວງວຽງຈັນ</h3>
                 </div>
             </div>
             <h1>Google map</h1>
@@ -38,7 +40,7 @@ export default{
   data (){
      return {
         title:'ຕິດຕໍ່ພວກເຮົາ',
-        description: 'ຕິດຕໍ່ພວກເຮົາ'
+        description: 'ສອບຖາມຂໍ້ມູນເພີ່ມຕື່ມໄດ້ ຫຼືຕິດຕໍ່ສາຂາທີ່ຢູ່ໃກ້ບ້ານທ່ານ'
     }
 }
 }

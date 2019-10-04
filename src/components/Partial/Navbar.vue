@@ -58,7 +58,7 @@
               <a href="/about" class="navbar-item" active-class="active" exact>
                 ກ່ຽວກັບພວກເຮົາ
               </a>
-              <a href="/about" class="navbar-item" active-class="active" exact>
+              <a href="/contact" class="navbar-item" active-class="active" exact>
                ຕິດຕໍ່ພວກເຮົາ
              </a>
            </div>

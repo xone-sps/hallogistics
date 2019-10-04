@@ -17,37 +17,10 @@
                     </div>
                   </form>
                 </div>
-<!--             <div class="field">
-              <label class="label is-pulled-left">ເລກໃບບິນ</label>
-              <div class="control">
-                <input class="input is-round" v-model="parcelId" type="text" placeholder="ເລກໃບບິນ">
-              </div>
-              <div class="has-text-centered">
-                <a v-on:click="toClick()" class="nile-bottom md">ກວດສອບພັດສະດຸ</a>
-              </div>
-            </div> -->
-<!--             <div v-if="!loading">
-                          <table class="table is-fullwidth" v-if="status != false">
-              <thead>
-                <tr>
-                  <th>ວັນທີ ແລະເວລາ</th>
-                  <th>ສະຖານະ</th>
-                  <th>ສາງ</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr v-for="track in data">
-                  <th>{{ track.date }}</th>
-                  <th>{{ track.details }}</th>
-                  <th>{{ track.place }}</th>
-                </tr>
-              </tbody>
-            </table>
-          </div> -->
         </div>
       </div>
       <!-- Modal tracking -->
-      <modal name="calculate"
+      <modal name="tracking"
       :height="'auto'"
       :clickToClose="true"
       :scrollable="true"
@@ -55,14 +28,13 @@
       :minWidth="320"
       :minHeight="230"
       :maxWidth="720"
-      v-if="data"
       >
-      <div class="modals-calculate" v-if="status != false">
+      <div class="modals-tracking" v-if="status != false">
         <div class="has-text-centered">
           <img style="max-height: 56px;" src="@/assets/favorite.png">
           <h2>ກວດສອບພັດສະດຸ</h2>
           <div>
-            <h2 class="checking-title">
+            <h2 class="checking-title" v-if="data">
               {{des.From}} &#8646; {{des.Destination}}
             </h2>
           </div>
@@ -100,8 +72,9 @@
     :height="'auto'"
     :clickToClose="true"
     :scrollable="true"
+    :padding="20"
     >
-    <div class="modals-calculate">
+    <div class="modals-tracking">
       <div class="has-text-centered">
         <img style="max-height: 56px;" src="@/assets/favorite.png">
         <h2><strong>ກວດສອບພັດສະດຸ</strong></h2>
@@ -169,7 +142,7 @@
 
 methods:{
   getData(){
-   this.$loading (true)  
+     this.$loading (true)  
     axios.get("https://cors-anywhere.herokuapp.com/http://trackhal.com/cgi-bin/GInfo.dll?EmsApiTrack&ntype=10000&cno="+this.parcelId)
     .then(
       res => {    
@@ -177,17 +150,14 @@ methods:{
         this.des = res.data.Response_Info;
         if(this.des){
             this.status = true,
-            this.$modal.show('calculate');
+            this.$modal.show('tracking');
             this.$loading(false)
         }else{
           this.$modal.show('modalError');
           this.$loading(false);
         }
-        //this.$modal.show('calculate');
-        //this.$loading(false)
      }).catch(error => {
       this.$loading(true)
-    // console.log('ID not match');
   })
   },
   toClick(){
@@ -201,23 +171,28 @@ methods:{
     }
   },
   openModal () {
-    this.$modal.show('calculate');
+    this.$modal.show('tracking');
     this.$modal.show('modalError');
   },
   hideModal () {
-    this.$modal.hide('calculate');
+    this.$modal.hide('tracking');
     this.$loading(false)
   },
   hidemodalError(){
     this.$modal.hide('modalError');
+  },
+  loading (){
+          this.$loading(true)
   }
 },
 created(){
-   this.getData();
+   // this.getData();
+   // this.toClick();
 },
  mounted() {
     // this.getData()
     // this.$loading(true);
+       // console.log('created');
   },
 components: {
   Banner,
@@ -232,11 +207,7 @@ components: {
 </script>
 
 <style scoped>
-
-.calculate{
-  overflow-y:auto;
-}
-.modals-calculate{
+.modals-tracking{
   margin:20px 10px 20px 10px;
 }
 table tbody tr th.tracking-date{
