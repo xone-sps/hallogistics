@@ -92,12 +92,6 @@
 </div>
 </section>
 </div>
-
-<!--   <banner/> -->
-<!-- Service -->
-<div class="service">
-  <Service/>
-</div>
 <div class="service2">
   <Service2/>
 </div>
