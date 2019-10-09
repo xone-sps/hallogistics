@@ -18,9 +18,10 @@
 					<div class="column is-4" v-for="(item, indx) in items" :key="indx">
 						<div class="price-table branch">
 							<img :src="item.image" alt="">
+							<!--
 							<div class="padding-25px">
 								<a href="#" class="nile-bottom sm-block">ເບິ່ງລາຍລະອຽດ</a>
-							</div>
+							</div> -->
 						</div>
 					</div>
 					<!-- // end item -->

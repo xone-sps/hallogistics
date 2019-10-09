@@ -17,6 +17,10 @@
                     </div>
                   </form>
                 </div>
+                <div class="hal-title">
+                <h2>ຮຸ່ງອາລຸນຂົນສົ່ງດ່ວນ</h2>
+                <p>ພວກເຮົາໃຫ້ຫຼາຍກວ່າການຂົນສົ່ງ</p>
+                </div>
         </div>
       </div>
       <!-- Modal tracking -->
@@ -201,6 +205,14 @@ components: {
 </script>
 
 <style scoped>
+.hal-title{
+    margin: 12px auto;
+    color: #fff;
+}
+.hal-title h2{
+      font-size: 22px;
+    font-weight: 500;
+}
 .modals-tracking{
   margin:20px 10px 20px 10px;
 }

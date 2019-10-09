@@ -92,5 +92,9 @@ export default new Router({
       meta: {title: 'Not found page'}
     },
 
-    ]
+    ],
+    scrollBehavior (to, from, savedPosition) {
+      return { x: 10, y: 0 }
+    }
+    
   })

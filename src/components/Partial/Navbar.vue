@@ -97,11 +97,11 @@
         >
       </div>
       <div class="drawer-unlogin">
-        <router-link :to="{ name: 'home' }">
+        <a href="/">
           <a class="drawer-seeker">
             <span class="line-bottom">ຮຸ່ງອາລຸນຂົນສົ່ງດ່ວນ</span>
           </a>
-        </router-link>
+        </a>
       </div>
     </div>
     <ul class="sidebar-drawer-box">

@@ -38,10 +38,10 @@
                    <li><strong>ຊຽງຂວາງ</strong> (ບ້ານ ໂພນງານມໃຕ້, ເມືອງ ແປກ)</li>
                    <li><strong>ຫົວພັນ</strong> (ບ້ານ ທາດເມືອງ, ເມືອງ ຊຳເໜືອ)</li>
                    <li><strong>ຜົງສາລີ</strong> (ໄວໆນີ້)</li>
-               </ul> -->
+               </ul> 
                <div class="padding-25px">
                	<a href="#" class="nile-bottom sm-block">ເບິ່ງລາຍລະອຽດ</a>
-               </div>
+               </div>-->
            </div>
        </div>
        <!-- // end item -->
