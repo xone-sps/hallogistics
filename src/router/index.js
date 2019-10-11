@@ -12,6 +12,7 @@ import South from '@/components/Page/Branch/South'
 import Blog from '@/components/Page/Blog'
 import Price from '@/components/Page/Price'
 import Service from '@/components/Page/Service'
+import Privacy from '@/components/Page/Privacy'
 import NotfoundPage from '@/components/Page/Notfound'
 
 Vue.use(Router)
@@ -84,6 +85,12 @@ export default new Router({
       name: 'service',
       component: Service,
       meta: {title: 'ການບໍລິການ|Hal Logistics'}
+    },
+        {
+      path: '/privacy',
+      name: 'privacy',
+      component: Privacy,
+      meta: {title: 'Privacy|Hal Logistics'}
     },
     {
       path: '/*',
