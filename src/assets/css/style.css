@@ -51,14 +51,14 @@ footer.footer ul li a:hover{
 
 .banner{
   padding: 30px 10px 100px 10px;
-  background-image: url(../../assets/images/slider/slider2.jpg);
+  background-image: url(../../assets/images/slider/banner.jpeg);
   background-size: cover;
 }
 .main_title{
     font-size: 31px;
     font-weight: 700;
     margin: 12px auto;
-    color: #fff;
+    /* color: #fff; */
 }
 .logo img{
 	text-align: center;
@@ -470,7 +470,7 @@ a.nile-bottom {
 }
 input#search-bar {
   margin: 0 auto;
-  width: 100%;
+  width: 80%;
   height: 45px;
   padding: 0 20px;
   font-size: 1rem;
@@ -496,12 +496,11 @@ input#search-bar:focus:-ms-placeholder {
 }
 
 .search-icon {
-  position: relative;
-  float: right;
-  top: -31px;
-  right: 16px;
-  color: #7461cF;
-
+    position: absolute;
+    float: right;
+    top: 15px;
+    right: 90px;
+    color: #7461cF;
 }
 /*About*/
 a.nile-bottom.sm {
@@ -641,10 +640,38 @@ a.nile-bottom:hover {
         }
         .banner{
            padding: 30px 30px 50px 30px;
-           background-image: url(../../assets/images/slider/hal_cover_mobile.png);
+           background-image: url(../../assets/images/slider/banner-mobile.jpeg);
            background-size: cover;
            width: 100%;
        }
+       input#search-bar {
+        margin: 0 auto;
+        width: 80%;
+        height: 30px;
+        padding: 0 20px;
+        font-size: 14px;
+        border: 1px solid #7461cf;
+        outline: none;
+      }
+      .search-icon {
+        position: absolute;
+        float: right;
+        top: 8px;
+        right: 38px;
+        font-size: 12px;
+        color: #7461cF;
+    }
+      .main_title {
+        font-size: 24px;
+        font-weight: 500;
+        margin: 12px auto;
+    }
+    .section-title .h2 {
+        font-size: 24px;
+        font-weight: 600;
+        display: inline-block;
+        position: relative;
+    }
    }
 
    @media (max-width: 520px){
@@ -665,7 +692,7 @@ a.nile-bottom:hover {
     }
     .banner{
        padding: 30px 30px 60px 30px;
-       background-image: url(../../assets/images/slider/hal_cover_mobile2.png);
+       background-image: url(../../assets/images/slider/banner-mobile.jpeg);
        background-size: cover;
        width: 100%;
    }

@@ -4,7 +4,7 @@
             <section class="section">
                 <div class="container">
                     <!-- Title -->
-                    <div class="section-title margin-bottom-40px">
+                    <div class="section-title">
                         <div class="columns">
 <!--                             <div class="column has-text-centered">
                                   <div class="icons"><img src="@/assets/images/icons/iconservice.png" alt=""></div>
@@ -36,7 +36,7 @@
                         </div>
                         <div class="column is-4">
                           <div class="text-center sm-mb-45px has-text-centered">
-                            <img src="@/assets/images/about-4.jpg" alt="" class="border-radius-500">
+                            <img src="@/assets/images/icon-service.png" alt="" class="border-radius-500">
                              <a class="title h2">ຮຸ່ງອາລຸນ ຂົນສົ່ງດ່ວນ</a>
                         </div>
                     </div>

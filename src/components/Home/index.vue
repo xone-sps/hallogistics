@@ -207,7 +207,6 @@ components: {
 <style scoped>
 .hal-title{
     margin: 12px auto;
-    color: #fff;
 }
 .hal-title h2{
       font-size: 22px;

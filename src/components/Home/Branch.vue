@@ -3,14 +3,14 @@
    <div class="container">
     <!-- Title -->
     <div class="section-title margin-bottom-40px">
-      <div class="columns">
+       <!-- Title <div class="columns">
         <div class="column has-text-centered">
          <div class="icon">
           <img src="@/assets/images/icons/icobranch50x50.svg" alt="">
         </div>
 
         </div>
-      </div>
+      </div> -->
       <div class="columns justify-content-center has-text-centered">
         <div class="column is-8">
          <div class="h2">{{title}}</div>
@@ -39,7 +39,7 @@
               <div class="column">
         <div class="price-table">
           <div class="title main-color branch">ພາກເໜືອ</div>
-              <div class="icons"><img src="@/assets/images/icons/icobranch50x50.svg" alt=""></div>
+              <div class="icons"><img src="@/assets/images/icons/icon-north.png" alt=""></div>
         <div class="padding-25px">
           <router-link to="/branch/north" class="nile-bottom sm-block">ເບິ່ງລາຍລະອຽດ</router-link>
         </div>
@@ -48,7 +48,7 @@
         <div class="column is-3">
           <div class="price-table">
             <div class="main-color branch is-white title">ນະຄອນຫຼວງວຽວຈັນ</div>
-                <div class="icons"><img src="@/assets/images/icons/icobranch50x50.svg" alt=""></div>
+                <div class="icons"><img src="@/assets/images/icons/icon-vt.png" alt=""></div>
            <div class="padding-25px">
             <router-link to="/branch/vientiane" class="nile-bottom sm-block">ເບິ່ງລາຍລະອຽດ</router-link>
           </div>
@@ -59,7 +59,7 @@
       <div class="column is-3">
         <div class="price-table">
           <div class="title main-color branch">ພາກກາງ</div>
-              <div class="icons"><img src="@/assets/images/icons/icobranch50x50.svg" alt=""></div>
+              <div class="icons"><img src="@/assets/images/icons/icon-central.png" alt=""></div>
         <div class="padding-25px">
           <router-link to="/branch/central" class="nile-bottom sm-block">ເບິ່ງລາຍລະອຽດ</router-link>
         </div>
@@ -71,7 +71,7 @@
     <div class="column is-3">
       <div class="price-table">
         <div class="title main-color branch">ພາກໃຕ້</div>
-            <div class="icons"><img src="@/assets/images/icons/icobranch50x50.svg" alt=""></div>
+            <div class="icons"><img src="@/assets/images/icons/icon-south.png" alt=""></div>
         <div class="padding-25px">
           <router-link to="/branch/south" class="nile-bottom sm-block">ເບິ່ງລາຍລະອຽດ</router-link>
         </div>
