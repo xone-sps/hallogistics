@@ -51,9 +51,26 @@ footer.footer ul li a:hover{
 
 .banner{
   padding: 30px 10px 100px 10px;
-  background-image: url(../../assets/images/slider/banner.jpeg);
   background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+    background-repeat: no-repeat, repeat;
+    background-image: -webkit-linear-gradient(rgba(8,25,43,.15),rgba(8,25,43,.85)),url(../../assets/images/slider/banner-1920x620.png);
+    background-image: linear-gradient(rgba(8,25,43,.0),rgba(8,25,43,.0)),url(../../assets/images/slider/banner-1920x620.png);
+    position: relative;
 }
+/* .banner:after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-color: rgba(24, 53, 83, 0.15);
+  } */
 .main_title{
     font-size: 31px;
     font-weight: 700;
@@ -626,7 +643,23 @@ a.nile-bottom:hover {
             right: 80px;
     
         }
+        .banner{
+            padding: 30px 30px 50px 30px;
+            background-image: -webkit-linear-gradient(rgba(8,25,43,.15),rgba(8,25,43,.85)),url(../../assets/images/slider/banner1024x450.png);
+            background-image: linear-gradient(rgba(8,25,43,.0),rgba(8,25,43,.0)),url(../../assets/images/slider/banner1024x450.png);
+            background-size: cover;
+            width: 100%;
+        }
     }
+    /* @media(min-width:720px){
+        .banner{
+            padding: 30px 30px 50px 30px;
+            background-image: -webkit-linear-gradient(rgba(8,25,43,.15),rgba(8,25,43,.85)),url(../../assets/images/slider/banner1024x450.png);
+            background-image: linear-gradient(rgba(8,25,43,.15),rgba(8,25,43,.85)),url(../../assets/images/slider/banner1024x450.png);
+            background-size: cover;
+            width: 100%;
+        }
+    } */
     @media (max-width: 720px){
         .www-Table thead th {
             border: none;
@@ -645,7 +678,8 @@ a.nile-bottom:hover {
         }
         .banner{
            padding: 30px 30px 50px 30px;
-           background-image: url(../../assets/images/slider/banner-mobile.jpeg);
+           background-image: -webkit-linear-gradient(rgba(8,25,43,.15),rgba(8,25,43,.85)),url(../../assets/images/slider/banner720x360.png);
+           background-image: linear-gradient(rgba(8,25,43,.0),rgba(8,25,43,.0)),url(../../assets/images/slider/banner720x360.png);
            background-size: cover;
            width: 100%;
        }
@@ -678,6 +712,15 @@ a.nile-bottom:hover {
         position: relative;
     }
    }
+   @media (max-width: 620px){
+    .banner{
+        padding: 30px 30px 60px 30px;
+        background-image: -webkit-linear-gradient(rgba(8,25,43,.15),rgba(8,25,43,.85)),url(../../assets/images/slider/620x320.png);
+        background-image: linear-gradient(rgba(8,25,43,.0),rgba(8,25,43,.0)),url(../../assets/images/slider/620x320.png);
+        background-size: cover;
+        width: 100%;
+    }
+   }
 
    @media (max-width: 520px){
     .www-Table thead th {
@@ -697,7 +740,8 @@ a.nile-bottom:hover {
     }
     .banner{
        padding: 30px 30px 60px 30px;
-       background-image: url(../../assets/images/slider/banner-mobile.jpeg);
+       background-image: -webkit-linear-gradient(rgba(8,25,43,.15),rgba(8,25,43,.85)),url(../../assets/images/slider/520x280.png);
+       background-image: linear-gradient(rgba(8,25,43,.0),rgba(8,25,43,.0)),url(../../assets/images/slider/520x280.png);
        background-size: cover;
        width: 100%;
    }
@@ -712,6 +756,15 @@ a.nile-bottom:hover {
         top: 9px;
         right: 41px;
 
+    }
+}
+@media (max-width: 375px){
+    .banner{
+        padding: 30px 30px 60px 30px;
+        background-image: -webkit-linear-gradient(rgba(8,25,43,.15),rgba(8,25,43,.85)),url(../../assets/images/slider/375x260.png);
+        background-image: linear-gradient(rgba(8,25,43,.0),rgba(8,25,43,.0)),url(../../assets/images/slider/375x260.png);
+        background-size: cover;
+        width: 100%;
     }
 }
 @media (max-width: 320px){

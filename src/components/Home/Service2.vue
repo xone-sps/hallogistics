@@ -36,7 +36,7 @@
                         </div>
                         <div class="column is-4">
                           <div class="text-center sm-mb-45px has-text-centered">
-                            <img src="@/assets/images/icon-service.png" alt="" class="border-radius-500">
+                            <img src="@/assets/images/icon-service.png.jpeg" alt="" class="border-radius-500">
                              <a class="title h2">ຮຸ່ງອາລຸນ ຂົນສົ່ງດ່ວນ</a>
                         </div>
                     </div>

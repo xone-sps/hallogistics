@@ -2,12 +2,15 @@
   <div>
     <!-- Banner -->
     <div class="banner">
+<div style="
+">
       <section class="section">
         <div class="container">
           <div class="margin-top-h">
             <div class="columns">
               <div class="column is-8 is-offset-2 has-text-centered">
-                <div class="main_title"><h2>ກວດສອບພັດສະດຸ</h2></div>
+                <div class="main_title"><h2>ກວດສອບພັດສະດຸ</h2>
+                </div>
                 <div class="saidbar-search">
                   <form v-on:submit.prevent="toClick()">
                     <input type="text" v-model="parcelId" class="input is-rounded" id="search-bar" placeholder="ປ້ອນເລກໃບບິນ">
@@ -95,6 +98,7 @@
 </div>
 </div>
 </section>
+</div>
 </div>
 <div class="service2">
   <Service2/>
@@ -207,6 +211,7 @@ components: {
 <style scoped>
 .hal-title{
     margin: 12px auto;
+    
 }
 .hal-title h2{
       font-size: 22px;

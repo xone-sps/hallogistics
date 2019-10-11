@@ -23,7 +23,7 @@
                 </div>
             </div>
             <div class="column is-6">
-                <img src="@/assets/images/about-1.jpg" alt="">
+                <img src="@/assets/images/slider/about.png" alt="">
             </div>
         </div>
     </div>
