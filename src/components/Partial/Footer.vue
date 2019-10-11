@@ -15,14 +15,14 @@
 										<!-- <i class="fa fa-phone margin-right-10px"></i> -->
 										<!-- 			<i class="fab fa-map-marker-alt"></i> -->
 										<div class="text">
-											<h2 class="title">ສຳນັກງານໃຫ່ຍ</h2>
+											<p class="title">ສຳນັກງານໃຫ່ຍ</p>
 											<span class="font-weight-500 text-uppercase">ບ້ານຮ່ອງຄ້າ, ເມືອງຈັນທະບູລີ, ນະຄອນຫຼວງວຽງຈັນ</span>
 										</div>
 									</div>
 								</div>
 								<div class="text">
 									<span class="title-in"><i class="fa fa-phone margin-right-10px"></i>ສາຍດ່ວນ:</span>
-									<span class="font-weight-500 text-uppercase">20 55538210 / 20 55538211</span>
+									<p class="font-weight-500 text-uppercase"><a href="tel:55538210">20 55538210</a> / <a href="tel:55538211">20 55538211</a></p>
 								</div>
 							</div>
 						</div>
@@ -106,5 +106,8 @@
 }
 .columns:last-child {
 	margin-bottom: 0;
+}
+a{
+	color:#fff;
 }
 </style>

@@ -246,11 +246,11 @@ a.nile-bottom {
     border-radius: 35px;
     display: inline-block;
 }
-.nile-about-section {
+/* .nile-about-section {
     padding: 0px 0px 50px 0px;
     background-image: url(../../assets/images/ba_1.jpg);
     background-size: cover;
-}
+} */
 .text-main-color {
     color: #e53935;
 }
@@ -621,6 +621,11 @@ a.nile-bottom:hover {
         .top{
             display: none;
         }
+        .search-icon {
+            top: 15px;
+            right: 80px;
+    
+        }
     }
     @media (max-width: 720px){
         .www-Table thead th {
@@ -656,8 +661,8 @@ a.nile-bottom:hover {
       .search-icon {
         position: absolute;
         float: right;
-        top: 8px;
-        right: 38px;
+        top: 9px;
+        right: 70px;
         font-size: 12px;
         color: #7461cF;
     }
@@ -696,8 +701,26 @@ a.nile-bottom:hover {
        background-size: cover;
        width: 100%;
    }
-}
+   .search-icon {
+    top: 9px;
+    right: 50px;
 
+}
+}
+@media (max-width: 420px){
+    .search-icon {
+        top: 9px;
+        right: 41px;
+
+    }
+}
+@media (max-width: 320px){
+    .search-icon {
+        top: 9px;
+        right: 30px;
+
+    }
+}
 
 @media (min-width: 992px){
     .d-lg-block {
