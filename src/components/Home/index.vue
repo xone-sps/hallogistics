@@ -14,7 +14,7 @@
                 <div class="saidbar-search">
                   <form v-on:submit.prevent="toClick()">
                     <input type="text" v-model="parcelId" class="input is-rounded" id="search-bar" placeholder="ປ້ອນເລກໃບບິນ">
-                    <a v-on:click="toClick()"><i class="fa fa-search search-icon"></i></a>
+                    <a v-on:click="toClick()"><i class="fa fa-search search-icon is-desktop"></i></a>
                     <div v-if="errors.length">
                       <p class="required">{{errors}}</p>
                     </div>

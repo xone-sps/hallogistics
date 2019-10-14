@@ -114,25 +114,25 @@
         </li>
         <li>
           <a href="/branch/vientiane">
-           <i class="fas fa-people-carry"></i>
+<i class="far fa-building"></i>
            <span>ສາຂານະຄອນຫຼວງ</span>
          </a>
        </li>
        <li>
         <a href="/branch/north">
-         <i class="fas fa-people-carry"></i>
+<i class="far fa-building"></i>
          <span>ສາຂາພາກເໜືອ</span>
        </a>
      </li>
      <li>
       <a href="/branch/central">
-        <i class="fas fa-people-carry"></i>
+<i class="far fa-building"></i>
         <span>ສາຂາພາກກາງ</span>
       </a>
     </li>
     <li>
       <a href="/branch/south">
-        <i class="fas fa-people-carry"></i>
+<i class="far fa-building"></i>
         <span>ສາຂາພາກໃຕ້</span>
       </a>
     </li>
@@ -142,18 +142,18 @@
        <span>ຄ່າບໍລິການ</span>
      </a>
    </li>
-   <li>
-    <a href="/about">
-     <i class="fas fa-truck-moving"></i>
-     <span>ກ່ຽວກັບພວກເຮົາ</span>
-   </a>
- </li>
  <li>
   <a href="/contact">
     <i class="fa fa-phone"></i>
     <span>ຕິດຕໍ່ພວກເຮົາ</span>
   </a>
 </li>
+   <li>
+    <a href="/about">
+<i class="fas fa-info-circle"></i>
+     <span>ກ່ຽວກັບພວກເຮົາ</span>
+   </a>
+ </li>
 </template>
 </ul>
 </section>
