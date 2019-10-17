@@ -12,8 +12,8 @@
                    </div>
                </div>
                <div class="columns">
-                <div class="column">
-                    <h3><strong>ສາຍດ່ວນ:</strong> <a href="tel:55538210">20 55538210</a> / <a href="tel:55538211">20 55538211</a></h3>
+                <div class="column contact-us">
+                    <h3><strong>ສາຍດ່ວນ:</strong><a href="tel:55538210">20 55538210</a> / <a href="tel:55538211">20 55538211</a></h3>
                    <h3><strong>Wechat:</strong> HAL Logistics</h3>
                     <h3><strong>Line ID:</strong> @hal2018</h3>
                    <h3><strong>Email:</strong> <a href="mailto:hal.lao.2008@hotmail.com">hal.lao.2008@hotmail.com</a></h3>

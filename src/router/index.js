@@ -24,7 +24,7 @@ export default new Router({
     path: '/',
     name: 'home',
     component: Index,
-    meta:{title:'Home|Hal Logistics'}
+    meta:{title:'Hal Logistics'}
   },
   {
    path: '/about',

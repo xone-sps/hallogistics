@@ -1,0 +1,19 @@
+
+@font-face {
+    font-family: 'boonhome-regular';
+    src: url(../../fonts/BoonHome-400.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'boonhome-bold';
+    src: url(../../fonts/BoonHome-700.ttf) format("truetype");
+}
+
+body, button, input, select, textarea, p {
+
+  font-family:'boonhome-regular', 'Google Sans', arial, serif, sans-serif !important;
+}
+h1, h2, h3, h4, h5, h6, p, a{
+    font-family: 'Roboto', 'boonhome-bold' !important;
+    font-size: normal;
+}
