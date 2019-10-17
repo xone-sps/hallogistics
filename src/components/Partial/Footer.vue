@@ -110,30 +110,5 @@
 		</div>
 	</template>
 	<style scoped>
-	.list-inline-item:not(:last-child) {
-		margin-right: 15px;
-	}
-	.columns:last-child {
-		margin-bottom: 0;
-	}
-	a{
-		color:#fff;
-	}
-	.store-icons{
-		text-align: center;
-		font-size: 28px;
 
-	}
-	.title.store-title{
-		font-size: 24px;
-		text-align: center;
-	}
-	.store-icons img{
-width: 180px;
-    height: auto;
-		border-radius: 6px 6px 6px 6px;
-	}
-	.section.footers{
-		padding: 10px 15px 15px 20px;
-	}
 	</style>
