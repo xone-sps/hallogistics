@@ -639,7 +639,9 @@ a.nile-bottom:hover {
     .columns:last-child {
         margin-bottom: 0;
     }
-
+/*    a{
+        color:#fff;
+    }*/
     .store-icons{
         text-align: center;
         font-size: 28px;
@@ -656,6 +658,9 @@ width: 180px;
     }
     .section.footers{
         padding: 10px 15px 15px 20px;
+    }
+    .footer a{
+        color: #fff;
     }
 
 .contac-us a{
